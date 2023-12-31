@@ -1,0 +1,1070 @@
+Unity Editor version:    2021.3.19f1 (c9714fde33b6)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.1 (Build 23B74)
+Darwin version:          23.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Users/filippomariani/Documents/Unity/2021.3.19f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/filippomariani/Desktop/UserExperience
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53286
+Successfully changed project path to: /Users/filippomariani/Desktop/UserExperience
+/Users/filippomariani/Desktop/UserExperience
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8002494144] Host "[IP] 192.168.5.116 [Port] 0 [Flags] 2 [Guid] 2075426375 [EditorId] 2075426375 [Version] 1048832 [Id] OSXEditor(0,a.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8002494144] Host "[IP] 192.168.5.116 [Port] 0 [Flags] 2 [Guid] 2075426375 [EditorId] 2075426375 [Version] 1048832 [Id] OSXEditor(0,a.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 63.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path /Users/filippomariani/Documents/Unity/2021.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/filippomariani/Desktop/UserExperience/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Users/filippomariani/Documents/Unity/2021.3.19f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/filippomariani/Documents/Unity/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/filippomariani/Documents/Unity/2021.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56625
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/filippomariani/Documents/Unity/2021.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Users/filippomariani/Documents/Unity/2021.3.19f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Users/filippomariani/Documents/Unity/2021.3.19f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.002396 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+2023-12-29 11:49:04.956 Unity[80625:16302407] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Users/filippomariani/Downloads/Visual Studio Code-2.app/Contents/Info.plist
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 899 ms
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 31.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.426 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1426ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1279ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (80ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (1147ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1038ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (52ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for iOS target not found
+2023-12-29 11:49:07.121 Unity[80625:16302407] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Users/filippomariani/Downloads/Visual Studio Code-2.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.769 seconds
+Domain Reload Profiling:
+	ReloadAssembly (770ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/filippomariani/Documents/Unity/2021.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.28 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2333 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (169.1 KB). Loaded Objects now: 2770.
+Memory consumption went from 84.0 MB to 83.9 MB.
+Total: 6.753500 ms (FindLiveObjects: 0.142375 ms CreateObjectMapping: 0.033333 ms MarkObjects: 6.487250 ms  DeleteObjects: 0.089625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1112821.034260 seconds.
+  path: Assets/Art/Doodle Jump/soccer-left-odskok@2x.png
+  artifactKey: Guid(2d92f2bd2151d8c40a0e90d4a5182cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/soccer-left-odskok@2x.png using Guid(2d92f2bd2151d8c40a0e90d4a5182cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740654a0dfee14dfc0824dd7c0cbb4f4') in 0.716505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Art/Doodle Jump/on-button.png
+  artifactKey: Guid(8f8131477068f4b4f9b5e86f43af83ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/on-button.png using Guid(8f8131477068f4b4f9b5e86f43af83ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca863e6c34ebe5d6d404f30f11ecd41e') in 0.014290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018846 seconds.
+  path: Assets/Art/Doodle Jump/snow-top-score.png
+  artifactKey: Guid(a52d00c08469d0d49a2d6f619bb6f556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/snow-top-score.png using Guid(a52d00c08469d0d49a2d6f619bb6f556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bc442b50cd8f8f14aaffcde3b0a5fa') in 0.025710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002473 seconds.
+  path: Assets/Art/Doodle Jump/set@2x.png
+  artifactKey: Guid(1c50d1fd4e76266449de614b705944d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/set@2x.png using Guid(1c50d1fd4e76266449de614b705944d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb57537e908916ceb21445752c420fd0') in 0.012485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001074 seconds.
+  path: Assets/Art/Doodle Jump/stats.png
+  artifactKey: Guid(31ea2cbe7d108214ba0cf7c7a2475ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/stats.png using Guid(31ea2cbe7d108214ba0cf7c7a2475ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0eb4db67d5cb54d3231d8715b3d1df') in 0.007322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002413 seconds.
+  path: Assets/Art/Doodle Jump/off-button-on.png
+  artifactKey: Guid(d86160d7cb6bfa14eaf1e95c988f5494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/off-button-on.png using Guid(d86160d7cb6bfa14eaf1e95c988f5494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dc94623f5c632e5f45d3d4da7c1320') in 0.017417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Art/Doodle Jump/space-left@2x.png
+  artifactKey: Guid(362287515ac022142ae43c82ceb8dcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/space-left@2x.png using Guid(362287515ac022142ae43c82ceb8dcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5842f9617d7b8a322d80c2590c6e601e') in 0.012784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Art/Doodle Jump/twitter-submit.png
+  artifactKey: Guid(e8ae129396ed6104ea3760f9ad1981ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/twitter-submit.png using Guid(e8ae129396ed6104ea3760f9ad1981ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734842da5e9b16d920033db03cb92d7e') in 0.007642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/Doodle Jump/news-warning.png
+  artifactKey: Guid(429486fad4441e94fb28f8996053564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/news-warning.png using Guid(429486fad4441e94fb28f8996053564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4f8926b62d23e4ee900d6e8b12bebd') in 0.010442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000840 seconds.
+  path: Assets/Art/Doodle Jump/ice-right@2x.png
+  artifactKey: Guid(334604cb825c222428d848f8893220c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ice-right@2x.png using Guid(334604cb825c222428d848f8893220c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1eda1c30e213e66bcc97d00be34a0bd') in 0.010361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Art/Doodle Jump/twitter-down@2x.png
+  artifactKey: Guid(d423f7318caa7dd4d90b2f5819a66cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/twitter-down@2x.png using Guid(d423f7318caa7dd4d90b2f5819a66cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380393089bc08d74680b79b25e8d054f') in 0.026248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Art/Doodle Jump/twitter-user-password.png
+  artifactKey: Guid(21d4abe73b6ec1f49abf68473cfd8b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/twitter-user-password.png using Guid(21d4abe73b6ec1f49abf68473cfd8b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f03abd11a7b01f3163c3d9adc0c0d2') in 0.005987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/Doodle Jump/whatsnew.png
+  artifactKey: Guid(6410a5e301543a6479b5e259a5d1dde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/whatsnew.png using Guid(6410a5e301543a6479b5e259a5d1dde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbebde6ba3a0d19be85a5d6258536c60') in 0.019245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/Doodle Jump/submit-facebook-on@2x.png
+  artifactKey: Guid(543e97816cc2036498020b8cb769ff28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/submit-facebook-on@2x.png using Guid(543e97816cc2036498020b8cb769ff28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dacba177c19ac8fc96d946bae92114f') in 0.009918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Art/Doodle Jump/twitter-sent@2x.png
+  artifactKey: Guid(404939e26cc6fcf4e980902523b0a8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/twitter-sent@2x.png using Guid(404939e26cc6fcf4e980902523b0a8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b9cc1c93d7db30c5023a1851b6ff5c') in 0.026858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Art/Doodle Jump/soccer-bck@2x.png
+  artifactKey: Guid(906a0fe6e5987a740a353ec6034cd8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/soccer-bck@2x.png using Guid(906a0fe6e5987a740a353ec6034cd8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72fd30dbcfd11586d65159bd5f12988') in 0.039603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/Doodle Jump/underwater-lines.png
+  artifactKey: Guid(bc036508734983642b44503e6fbb9d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/underwater-lines.png using Guid(bc036508734983642b44503e6fbb9d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddd298fab563719c937536a11dac67b') in 0.016411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/Doodle Jump/twitter-cancel.png
+  artifactKey: Guid(d42a8b7700547b140bd0c9ec880005d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/twitter-cancel.png using Guid(d42a8b7700547b140bd0c9ec880005d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9773f75258727ff8d23a3144b056434') in 0.006474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Art/Doodle Jump/space-top-score@2x.png
+  artifactKey: Guid(13496f71087a25941bec216292b67aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/space-top-score@2x.png using Guid(13496f71087a25941bec216292b67aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a73c2a97c09e277c67cee57e08af332') in 0.010952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/Doodle Jump/off-button-on@2x.png
+  artifactKey: Guid(a6db8a8b22036114c8f0e99699a5977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/off-button-on@2x.png using Guid(a6db8a8b22036114c8f0e99699a5977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e65cf0247f84aea6b0a988bc0d7dc3') in 0.005735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Art/Doodle Jump/twitter-invalid-login@2x.png
+  artifactKey: Guid(2af18f72413727844b90b5583bfe5ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/twitter-invalid-login@2x.png using Guid(2af18f72413727844b90b5583bfe5ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c50098f3021d5d5a3e106e76d850395') in 0.008632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Art/Doodle Jump/space-right.png
+  artifactKey: Guid(a1b956c150374c94590e923fee97bb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/space-right.png using Guid(a1b956c150374c94590e923fee97bb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44c506f8286405bf92ee549e6f431d1') in 0.007097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Art/Doodle Jump/top-score@2x.png
+  artifactKey: Guid(de0a1e03cac821b4e9c73d625c782a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/top-score@2x.png using Guid(de0a1e03cac821b4e9c73d625c782a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d2b39db53b42b1d13550cdc55e293c') in 0.012100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/Doodle Jump/submit-twitter-on.png
+  artifactKey: Guid(c546443356557a5418dfe9e1e2981e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/submit-twitter-on.png using Guid(c546443356557a5418dfe9e1e2981e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4e9d02ed89b8cbbf53bfe7726b65c1') in 0.006353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000893 seconds.
+  path: Assets/Art/Doodle Jump/rocket@2x.png
+  artifactKey: Guid(16be2e690533dcf49b569ed7133607da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/rocket@2x.png using Guid(16be2e690533dcf49b569ed7133607da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c29325fd6dc6465311657b94b0509b') in 0.030095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Art/Doodle Jump/submit@2x.png
+  artifactKey: Guid(52d99213c3950c24e864fe2a99e1ec0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/submit@2x.png using Guid(52d99213c3950c24e864fe2a99e1ec0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabeead3d0dedc411de7924b8f9e3f18') in 0.008929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Art/Doodle Jump/space-puca-odskok@2x.png
+  artifactKey: Guid(2f09cd7f6338e4b40b0a08e32ad82202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/space-puca-odskok@2x.png using Guid(2f09cd7f6338e4b40b0a08e32ad82202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85138691ee1495aa0c20080083727e70') in 0.009576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Art/Doodle Jump/soccer-puca.png
+  artifactKey: Guid(b96ca997d70efd04d97e58d620ae4656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/soccer-puca.png using Guid(b96ca997d70efd04d97e58d620ae4656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53648bf3a5f89d4ed221269f8395b7b') in 0.006780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Art/Doodle Jump/twitter-sent.png
+  artifactKey: Guid(95cc4ce2e3a9577448bebd23e141d0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/twitter-sent.png using Guid(95cc4ce2e3a9577448bebd23e141d0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ef1d436757375925447d05ba67059f') in 0.006438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Doodle Jump/underwater-left-odskok@2x.png
+  artifactKey: Guid(0e9b0d9f8de10314fb9075dc8e116239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/underwater-left-odskok@2x.png using Guid(0e9b0d9f8de10314fb9075dc8e116239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1051595f1abc40c3917c8595cf5f37b') in 0.009355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Art/Doodle Jump/twitter-logout@2x.png
+  artifactKey: Guid(ee18f2d2b8aa5da49a33a8aaae0d0ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/twitter-logout@2x.png using Guid(ee18f2d2b8aa5da49a33a8aaae0d0ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797b2ebe70cb1e62580ad1b1f918ffe3') in 0.007140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Art/Doodle Jump/twitter-logout.png
+  artifactKey: Guid(820a5d99dffc4d849a76c546bbf8f905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/twitter-logout.png using Guid(820a5d99dffc4d849a76c546bbf8f905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbd7eaffef151909958bb86f44a7363') in 0.007234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Art/Doodle Jump/twitter-logout-on@2x.png
+  artifactKey: Guid(297a51e62413cfe4aa0482de5ddf2567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/twitter-logout-on@2x.png using Guid(297a51e62413cfe4aa0482de5ddf2567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71105abbe266a2e1dc063de12aab1e62') in 0.007284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Art/Doodle Jump/space-puca.png
+  artifactKey: Guid(df22726ee87b3894dbc050d0b4e893db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/space-puca.png using Guid(df22726ee87b3894dbc050d0b4e893db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1988b3c7c7fc6550ce3333c5d7d85fd8') in 0.007163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Art/Doodle Jump/stats_on.png
+  artifactKey: Guid(a1c3c09b6d215c341a429f09f29cbce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/stats_on.png using Guid(a1c3c09b6d215c341a429f09f29cbce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adedd4316d446d60f10e67bf44202a96') in 0.006009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Art/Doodle Jump/stats@2x.png
+  artifactKey: Guid(7965667cda7d16c438e7d9de74702138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/stats@2x.png using Guid(7965667cda7d16c438e7d9de74702138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c4d1a8cfc9f80da2a8a0d1cabf6771') in 0.007250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Art/Doodle Jump/underwater-puca.png
+  artifactKey: Guid(2727e19b6daab3946a26e821040eb988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/underwater-puca.png using Guid(2727e19b6daab3946a26e821040eb988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e7bae07c5af7fae3e5067a2eac40f5') in 0.007620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/Doodle Jump/underwater-lines@2x.png
+  artifactKey: Guid(c026e6762cde97d4cbe98491ec6a7b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/underwater-lines@2x.png using Guid(c026e6762cde97d4cbe98491ec6a7b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721fa91b4d30a8882bd85f5ebb9ef79a') in 0.047706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Art/Doodle Jump/themes-2@2x.png
+  artifactKey: Guid(41c80fa21716ad44e8ac959dd51041f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/themes-2@2x.png using Guid(41c80fa21716ad44e8ac959dd51041f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6295dd789bcb4a78ac6c31022625769c') in 0.046354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Art/temp1406589445.png
+  artifactKey: Guid(2186893a38b8fe8419b7b31d5f1a1562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/temp1406589445.png using Guid(2186893a38b8fe8419b7b31d5f1a1562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37846a21adb5e4f3d8e678d749398bd') in 0.067300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/Doodle Jump/underwater-puca-odskok@2x.png
+  artifactKey: Guid(482e4a16170321a4ca3a08adb414c671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/underwater-puca-odskok@2x.png using Guid(482e4a16170321a4ca3a08adb414c671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b15188c8e6cab9ede7b909418b15789') in 0.009136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Art/Doodle Jump/space-top-score.png
+  artifactKey: Guid(411eeb4f62a109545ad7701f59a0c2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/space-top-score.png using Guid(411eeb4f62a109545ad7701f59a0c2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a6d041c67e7c0293da27b09e0ad3e8') in 0.008933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/Doodle Jump/underwater-left-odskok.png
+  artifactKey: Guid(e288debd1b73a5743a1e16db6ec86fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/underwater-left-odskok.png using Guid(e288debd1b73a5743a1e16db6ec86fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c137776dcce5bd4a8dd7698ec4256e73') in 0.007894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Art/Doodle Jump/twitter-submit-on.png
+  artifactKey: Guid(f1b3a5caa16a44b478b286c96f8aa553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/twitter-submit-on.png using Guid(f1b3a5caa16a44b478b286c96f8aa553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64586b20e251ec222d014bf1bad012f') in 0.006686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Art/Doodle Jump/red-lik-left-odskok@2x.png
+  artifactKey: Guid(ee45f48786b4d28419b0a69aea03efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/red-lik-left-odskok@2x.png using Guid(ee45f48786b4d28419b0a69aea03efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7adff562cba115f3a98bfd673aa9fd1e') in 0.009358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Art/Doodle Jump/stars3.png
+  artifactKey: Guid(74ad78d7617c68a4f9fa1d50c09fc718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/stars3.png using Guid(74ad78d7617c68a4f9fa1d50c09fc718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e6faee633bde793e977158d4635ac4') in 0.009328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Art/Doodle Jump/news-warning@2x.png
+  artifactKey: Guid(9a95222516c8c124b890f4568fda49a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/news-warning@2x.png using Guid(9a95222516c8c124b890f4568fda49a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de4a94c8d1b5e4d5d3746e059fce811') in 0.009913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Art/Doodle Jump/stars3@2x.png
+  artifactKey: Guid(27a9d88ff0038724193f60ac48d8f6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/stars3@2x.png using Guid(27a9d88ff0038724193f60ac48d8f6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d1a89538fa46d17c09ded3a2a57751') in 0.008254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/Doodle Jump/off-button@2x.png
+  artifactKey: Guid(0c7a6049fd8af7a42a946cb14dcbfac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/off-button@2x.png using Guid(0c7a6049fd8af7a42a946cb14dcbfac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c6820c0b09e8c685d465c3c88451e4') in 0.008185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Art/Doodle Jump/underwater-right-odskok@2x.png
+  artifactKey: Guid(21be2d4c3cbf73d4a9d1824ea88f84b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/underwater-right-odskok@2x.png using Guid(21be2d4c3cbf73d4a9d1824ea88f84b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4826a9fdcbd976b7d219b853435b779') in 0.010613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/Doodle Jump/underwater-top-score@2x.png
+  artifactKey: Guid(a649a83d772c7f34ab0679998ca9d21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/underwater-top-score@2x.png using Guid(a649a83d772c7f34ab0679998ca9d21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7ed607e05fe410bb2cd9a1e34a92da') in 0.031147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/Doodle Jump/week@2x.png
+  artifactKey: Guid(b280df4960d6c6e428ebc99a2dfdae18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/week@2x.png using Guid(b280df4960d6c6e428ebc99a2dfdae18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefb909da85c682e3f003b3b6e6c6481') in 0.008257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Art/Doodle Jump/twitter-logged.png
+  artifactKey: Guid(f864814ffeab98b4b9d0686bfc3e4ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/twitter-logged.png using Guid(f864814ffeab98b4b9d0686bfc3e4ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97311c5ae4efe62d1c198f5e19e310de') in 0.006503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Art/Doodle Jump/space-puca@2x.png
+  artifactKey: Guid(ac40fc7def21c0d439e791986e08c10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/space-puca@2x.png using Guid(ac40fc7def21c0d439e791986e08c10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f75534aaa3a3cf9a42cc59391d91a3') in 0.009483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/Doodle Jump/twitter-bck@2x.png
+  artifactKey: Guid(a729cbe708244ab4c9eb7471f43e075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/twitter-bck@2x.png using Guid(a729cbe708244ab4c9eb7471f43e075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8bdc267ab7ce290d0518278d6013a8') in 0.049319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Art/Doodle Jump/snow@2x.png
+  artifactKey: Guid(7a4d72cf029a96c4c8aca1f1439f888e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/snow@2x.png using Guid(7a4d72cf029a96c4c8aca1f1439f888e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26df16400cb39b017d11df96c79b35ef') in 0.005984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Art/Doodle Jump/space-puca-odskok.png
+  artifactKey: Guid(0409aaf2d0ef8c74c9918fedbb9a7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/space-puca-odskok.png using Guid(0409aaf2d0ef8c74c9918fedbb9a7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b178cf8ccae1a004c13d8e8f00c2ed') in 0.007809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Art/Doodle Jump/stars2.png
+  artifactKey: Guid(d1ba43c98a9cb61479de4652ca0280a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/stars2.png using Guid(d1ba43c98a9cb61479de4652ca0280a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a9a2772b8f4c4f919ad73f15057e6b') in 0.009581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Art/Doodle Jump/twitter-overloaded.png
+  artifactKey: Guid(0251741d4f0b36544bec2c620cce5533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/twitter-overloaded.png using Guid(0251741d4f0b36544bec2c620cce5533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d18b70157181dcd462096232fa1e35') in 0.007328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Art/Doodle Jump/underwater-light.png
+  artifactKey: Guid(4c70dd858a91d0e4ca3dc7042c1b53e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/underwater-light.png using Guid(4c70dd858a91d0e4ca3dc7042c1b53e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9381f4b6dba753ebd8b0a50e39df470f') in 0.020444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Art/Doodle Jump/space-bck.png
+  artifactKey: Guid(f0b8e97e16b4d924d99654d4e1d63c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/space-bck.png using Guid(f0b8e97e16b4d924d99654d4e1d63c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5319fc629ff993193683a1e799ffaa9') in 0.021369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Art/Doodle Jump/Icon@2x.png
+  artifactKey: Guid(2cae4913b9f79984b80cbcebabf49cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/Icon@2x.png using Guid(2cae4913b9f79984b80cbcebabf49cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6342ad9632989105b828aa36ca48e04a') in 0.010338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Art/Doodle Jump/space-bck@2x.png
+  artifactKey: Guid(1e9689c6f4ad82b41887934bfe93f6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/space-bck@2x.png using Guid(1e9689c6f4ad82b41887934bfe93f6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371fca9e596ce89d41ff7b908e2f5f02') in 0.054371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/Doodle Jump/snow-top-score@2x.png
+  artifactKey: Guid(94cf843dbe0d1e5479c2a00845f980e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/snow-top-score@2x.png using Guid(94cf843dbe0d1e5479c2a00845f980e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e7f9bf9e1d7b72392db7a003ac9226') in 0.012768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/Doodle Jump/week_on.png
+  artifactKey: Guid(ed8f8e2cc8f8b9b408b30dcaa87b1a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/week_on.png using Guid(ed8f8e2cc8f8b9b408b30dcaa87b1a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3770efc2de3f91f8270dc404e35c810c') in 0.006779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Art/Doodle Jump/underwater-left.png
+  artifactKey: Guid(8832c2cb2d10e4147bc3d3a72cdf7b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/underwater-left.png using Guid(8832c2cb2d10e4147bc3d3a72cdf7b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7774a467bd4e2f0ca586c2e01cec6d19') in 0.007412 seconds 
+[usbmuxd] Attached: 398 00008101-0014701E1A04001E
+[usbmuxd] Detached: 398 00008101-0014701E1A04001E
+[usbmuxd] Attached: 399 00008101-0014701E1A04001E
+[usbmuxd] Detached: 399 00008101-0014701E1A04001E
+[usbmuxd] Attached: 409 00008101-0014701E1A04001E
+[usbmuxd] Detached: 409 00008101-0014701E1A04001E
+[usbmuxd] Attached: 410 00008101-0014701E1A04001E
+[usbmuxd] Detached: 410 00008101-0014701E1A04001E
+[usbmuxd] Attached: 411 00008101-0014701E1A04001E
+[usbmuxd] Detached: 411 00008101-0014701E1A04001E
+[usbmuxd] Attached: 428 00008101-0014701E1A04001E
+[usbmuxd] Detached: 428 00008101-0014701E1A04001E
+========================================================================
+Received Import Request.
+  Time since last request: 42109.690647 seconds.
+  path: Assets/Art/Doodle Jump/news-loading.png
+  artifactKey: Guid(4ad1b40eb94c01840a6ba97a83da9a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/news-loading.png using Guid(4ad1b40eb94c01840a6ba97a83da9a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88055bd3910486bd63d4c760bf7b1e62') in 0.161107 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001674 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x286caf000 may have been prematurely finalized
+Native extension for iOS target not found
+2023-12-31 14:59:59.277 Unity[80625:16302407] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Users/filippomariani/Downloads/Visual Studio Code-2.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.378 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1380ms)
+		BeginReloadAssembly (330ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (145ms)
+		EndReloadAssembly (942ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (467ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (159ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (23.0 KB). Loaded Objects now: 2872.
+Memory consumption went from 89.4 MB to 89.4 MB.
+Total: 23.375416 ms (FindLiveObjects: 0.178625 ms CreateObjectMapping: 0.077667 ms MarkObjects: 23.070125 ms  DeleteObjects: 0.047834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 122.734159 seconds.
+  path: Assets/Art/Doodle Jump/multiplayer-connecting.png
+  artifactKey: Guid(fcda8e4d7fe96e646a4f9a5c375bf94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/multiplayer-connecting.png using Guid(fcda8e4d7fe96e646a4f9a5c375bf94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dac41ef69645a60e2bd4754c0267ff1') in 0.113628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Art/Doodle Jump/play-again-on.png
+  artifactKey: Guid(ed0af191a27d60049863d36a038c790b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/play-again-on.png using Guid(ed0af191a27d60049863d36a038c790b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06b77cfe98aea8871eadce9d9e60750') in 0.011110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Doodle Jump/play-on.png
+  artifactKey: Guid(2c9e892dc3fadc54d9fd49aded5a9f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/play-on.png using Guid(2c9e892dc3fadc54d9fd49aded5a9f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc291bfdf6f8e71969346d494d6a18f8') in 0.010994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Art/Doodle Jump/multiplayer-tiles.png
+  artifactKey: Guid(535dcb9c5d1e5ca42b0588c8dccdaa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/multiplayer-tiles.png using Guid(535dcb9c5d1e5ca42b0588c8dccdaa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7051c3e6c2d6e937341c9357a6597762') in 0.027533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Art/Doodle Jump/multiplayer-tiles@2x.png
+  artifactKey: Guid(15b0af25e3790584bb8aee09f89017a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/multiplayer-tiles@2x.png using Guid(15b0af25e3790584bb8aee09f89017a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b278c77597e5b2b766796d95988cdf') in 0.034537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Art/Doodle Jump/multiplayer-on.png
+  artifactKey: Guid(a1844eea23d5582468f66bacafa51f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/multiplayer-on.png using Guid(a1844eea23d5582468f66bacafa51f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c725be4f29af32d777fe17959da59c18') in 0.006651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Art/Doodle Jump/play-on@2x.png
+  artifactKey: Guid(967e9a80225e63c40b3f210fd46b2c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/play-on@2x.png using Guid(967e9a80225e63c40b3f210fd46b2c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf61adfb00dcbee5f5bdd376b378e03') in 0.007171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.971970 seconds.
+  path: Assets/Art/Doodle Jump/doodlestein-right@2x.png
+  artifactKey: Guid(48a670e6619ae624187925a0fd4270a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/doodlestein-right@2x.png using Guid(48a670e6619ae624187925a0fd4270a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcab2664873c7c8d48d25f73f27781e') in 0.052756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005956 seconds.
+  path: Assets/Art/Doodle Jump/facebook_on.png
+  artifactKey: Guid(97840489e1f857043877256130f4fa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/facebook_on.png using Guid(97840489e1f857043877256130f4fa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34dd240599630e18faf1a2999298bf9') in 0.007966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012413 seconds.
+  path: Assets/Art/Doodle Jump/enter-name.png
+  artifactKey: Guid(ec8ed464dd936894fb4ce8bdb3511a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/enter-name.png using Guid(ec8ed464dd936894fb4ce8bdb3511a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2100a06b25da35b907b748f2dff08b9a') in 0.009363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004511 seconds.
+  path: Assets/Art/Doodle Jump/enter-name@2x.png
+  artifactKey: Guid(695e54998f22b7e4fafb74114b2c1828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/enter-name@2x.png using Guid(695e54998f22b7e4fafb74114b2c1828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8d890d4762c9d7694b6de303e1533d') in 0.006727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.764342 seconds.
+  path: Assets/Art/Doodle Jump/friends-button.png
+  artifactKey: Guid(1867c2da36706ab44901686c879644fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/friends-button.png using Guid(1867c2da36706ab44901686c879644fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9cc476735e534c1afe33d894604adb') in 0.010014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035655 seconds.
+  path: Assets/Art/Doodle Jump/friends-button-on@2x.png
+  artifactKey: Guid(be52cb57c3bdec3409771e3713d68167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/friends-button-on@2x.png using Guid(be52cb57c3bdec3409771e3713d68167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49df27e367302071194ab69192f9561') in 0.006632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018713 seconds.
+  path: Assets/Art/Doodle Jump/frozen-left@2x.png
+  artifactKey: Guid(efff80663f5a0a54f8a4402a3f09c136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/frozen-left@2x.png using Guid(efff80663f5a0a54f8a4402a3f09c136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551cc0692c125671c5ea3f83e9540540') in 0.006923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Doodle Jump/frozen-right@2x.png
+  artifactKey: Guid(75e6b4f8f3abd9246bfbfa6b61e5b831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/frozen-right@2x.png using Guid(75e6b4f8f3abd9246bfbfa6b61e5b831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda242afc92c3dbccf2d9f7a339e1909') in 0.006985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001149 seconds.
+  path: Assets/Art/Doodle Jump/full-button-on@2x.png
+  artifactKey: Guid(f1e2f13143879d14a90a7ffbe6716556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/full-button-on@2x.png using Guid(f1e2f13143879d14a90a7ffbe6716556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb683ca0ab269a1d99e787f8dc755129') in 0.006227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.849480 seconds.
+  path: Assets/Art/player.png
+  artifactKey: Guid(1dacf51c5f0d09945a2a0862d9678025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/player.png using Guid(1dacf51c5f0d09945a2a0862d9678025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90777028654878e1c53433ceb01df5ae') in 0.018876 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000971 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x282e53000 may have been prematurely finalized
+Native extension for iOS target not found
+2023-12-31 15:02:05.224 Unity[80625:16302407] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Users/filippomariani/Downloads/Visual Studio Code-2.app/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.097 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1098ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (110ms)
+		EndReloadAssembly (837ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (20ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (390ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (131ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (23.0 KB). Loaded Objects now: 2902.
+Memory consumption went from 89.5 MB to 89.5 MB.
+Total: 7.780208 ms (FindLiveObjects: 0.127416 ms CreateObjectMapping: 0.066209 ms MarkObjects: 7.543750 ms  DeleteObjects: 0.042208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 253.545497 seconds.
+  path: Assets/Art/Doodle Jump/propeller.png
+  artifactKey: Guid(687baee40ee857e4390c7c36c05326c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/propeller.png using Guid(687baee40ee857e4390c7c36c05326c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d9bd66bfe190b87c7407e7a7051fc0') in 0.096574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Art/Doodle Jump/propeller-ooga@2x.png
+  artifactKey: Guid(c8ffc9bb91710284d8b0c701fd1f8794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/propeller-ooga@2x.png using Guid(c8ffc9bb91710284d8b0c701fd1f8794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371c4ad8ff03607093a571d670cba14a') in 0.012064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Art/Doodle Jump/propeller@2x.png
+  artifactKey: Guid(fb070dc68765fe5448c2f350528faed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/propeller@2x.png using Guid(fb070dc68765fe5448c2f350528faed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8d441d1bbc4250fda0d2310ac34bfd') in 0.007915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/Doodle Jump/propeller-bunny@2x.png
+  artifactKey: Guid(995a09c6add6f6a438b4d8f0543bb1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/propeller-bunny@2x.png using Guid(995a09c6add6f6a438b4d8f0543bb1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e69b753947d3eb355d9a328dcf88dc') in 0.008793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Doodle Jump/propeller-underwater@2x.png
+  artifactKey: Guid(e6c09874a81ddf14e800c9646a61b695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/propeller-underwater@2x.png using Guid(e6c09874a81ddf14e800c9646a61b695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de1f5f38cb23a7f2ebcced9bb2c6cf5') in 0.011169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Art/Doodle Jump/rain@2x.png
+  artifactKey: Guid(6f3d8f3b3a4df354ca5adcc3b021525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/rain@2x.png using Guid(6f3d8f3b3a4df354ca5adcc3b021525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8debcb4b77c20bb001b45c02dc2102f4') in 0.006316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/Doodle Jump/options-on.png
+  artifactKey: Guid(9b30434fc7f0b18489182e08bb3402a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/options-on.png using Guid(9b30434fc7f0b18489182e08bb3402a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b166efec9373cfd98967afe6fb4c43f8') in 0.006908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/Doodle Jump/options-bck@2x.png
+  artifactKey: Guid(4c645e025cde85147b00b779bea94469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/options-bck@2x.png using Guid(4c645e025cde85147b00b779bea94469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e92e95b86ad3f01e4d08544daba7b81') in 0.039222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/Doodle Jump/options@2x.png
+  artifactKey: Guid(d567fdc402b8988469f32c7a108a7f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/options@2x.png using Guid(d567fdc402b8988469f32c7a108a7f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cf3be0b2c725706ebc5a3aa7a0792f') in 0.008161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Doodle Jump/pause-cover.png
+  artifactKey: Guid(a157cb715bb111f418f67122a437a1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/pause-cover.png using Guid(a157cb715bb111f418f67122a437a1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a13c1136ef837d4e642a96e8aa2ceba') in 0.016209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Art/Doodle Jump/propeller-underwater.png
+  artifactKey: Guid(b61cfacd025cd2241a9d41dcf4eeba7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/propeller-underwater.png using Guid(b61cfacd025cd2241a9d41dcf4eeba7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1769cd557f7b416be6cd35fe4c83a272') in 0.006853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Art/Doodle Jump/propeller-space@2x.png
+  artifactKey: Guid(5477c1ffe0804674b80c8025d5c28d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/propeller-space@2x.png using Guid(5477c1ffe0804674b80c8025d5c28d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d21f9d354520ad97b70f7507707adea') in 0.007544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.110891 seconds.
+  path: Assets/Art/Doodle Jump/ooga-puca-odskok.png
+  artifactKey: Guid(261f940bb627a8f45aade1650a3c7605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ooga-puca-odskok.png using Guid(261f940bb627a8f45aade1650a3c7605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ab93623a84ba7fa6b33adf34fa7e73') in 0.013998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Art/Doodle Jump/local-button@2x.png
+  artifactKey: Guid(5004e9b80b084a142b52465fa543b2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/local-button@2x.png using Guid(5004e9b80b084a142b52465fa543b2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d726760e8a93fc2c5e853f2d242ff9') in 0.008362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Art/Doodle Jump/ooga-right.png
+  artifactKey: Guid(2ddf7d0b831f6364292983825a1d87c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ooga-right.png using Guid(2ddf7d0b831f6364292983825a1d87c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd076f2be3305adb6bacc51bedeb55df6') in 0.008711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Art/Doodle Jump/global-button-on.png
+  artifactKey: Guid(4030f261e4f1e4a47a3ab6f0c952397f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/global-button-on.png using Guid(4030f261e4f1e4a47a3ab6f0c952397f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c589f662ecf2640f87bd326f400845d') in 0.007053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/Doodle Jump/local-button-on.png
+  artifactKey: Guid(c5d18e9c29f3e7e469b9da8502b8c0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/local-button-on.png using Guid(c5d18e9c29f3e7e469b9da8502b8c0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193e456c7a16db31909806d42b329ba7') in 0.005343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/Doodle Jump/loading-scores.png
+  artifactKey: Guid(d9eebd3bbc83a5a4492e03c24001930f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/loading-scores.png using Guid(d9eebd3bbc83a5a4492e03c24001930f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c2fa27ec3253df88af6f9d05f6d53b') in 0.009536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Art/Doodle Jump/local-button-on@2x.png
+  artifactKey: Guid(f2bfc0575ad16664daadb0ef5da1cfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/local-button-on@2x.png using Guid(f2bfc0575ad16664daadb0ef5da1cfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893f08168092122b0bdd0be4e188b9cb') in 0.006105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Art/Doodle Jump/ghost-njuska@2x.png
+  artifactKey: Guid(677a0ed55089c9b4e9c7820d9d1fa596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ghost-njuska@2x.png using Guid(677a0ed55089c9b4e9c7820d9d1fa596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11179316481e924c4ed4ec9afeec9ff7') in 0.009285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/Doodle Jump/ghost-puca@2x.png
+  artifactKey: Guid(c89285d3d5b398a47a74f45fe6cdad6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ghost-puca@2x.png using Guid(c89285d3d5b398a47a74f45fe6cdad6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba408aa1cb2000479d31f1e04a06e865') in 0.006773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Doodle Jump/ooga-right-odskok.png
+  artifactKey: Guid(37b4b8b88d15d6443a57c1f896c6e5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ooga-right-odskok.png using Guid(37b4b8b88d15d6443a57c1f896c6e5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e922adc0a6299a04a3e36bf1a4bb2153') in 0.011851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Art/Doodle Jump/ghost-right@2x.png
+  artifactKey: Guid(bbad2a6abc658ee44adacb646edf05c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ghost-right@2x.png using Guid(bbad2a6abc658ee44adacb646edf05c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8121cb828ec3fad7e934f9eb8f0ca0c8') in 0.008523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Art/Doodle Jump/ghost-puca-odskok@2x.png
+  artifactKey: Guid(1c2fa0e0dd36943468173bb686877798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ghost-puca-odskok@2x.png using Guid(1c2fa0e0dd36943468173bb686877798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefced9506b0014644d62802e35893ab') in 0.008295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Art/Doodle Jump/ooga-right@2x.png
+  artifactKey: Guid(c44aecc9ac52f52489242677e3914827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ooga-right@2x.png using Guid(c44aecc9ac52f52489242677e3914827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185293321472ec39be4f10d99e6d6492') in 0.011770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.240788 seconds.
+  path: Assets/Art/Doodle Jump/done-on.png
+  artifactKey: Guid(5c5dc8e8afb942142810261aa605a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/done-on.png using Guid(5c5dc8e8afb942142810261aa605a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcb2996f52d7edb3d953762982c8a80') in 0.025269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Art/Doodle Jump/doodlestein-bck@2x.png
+  artifactKey: Guid(bd6e3c2de1d85b340a14af6a3f109aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/doodlestein-bck@2x.png using Guid(bd6e3c2de1d85b340a14af6a3f109aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb7ff5fcc4405d3b08fcae04305bc24') in 0.073371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/Doodle Jump/ach-ufo@2x.png
+  artifactKey: Guid(8ed221387a5ee924b8dab23430c7e974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ach-ufo@2x.png using Guid(8ed221387a5ee924b8dab23430c7e974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8c4bd9f6fd9782ed0d691e5af57771') in 0.009009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Doodle Jump/ach-old.png
+  artifactKey: Guid(45d329eb5d87fcc48b2236185ff5011e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ach-old.png using Guid(45d329eb5d87fcc48b2236185ff5011e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605950860898147a4551ff040a7763e3') in 0.006283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Doodle Jump/done-on@2x.png
+  artifactKey: Guid(0e805feb9b6c8834880cf99f985a7b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/done-on@2x.png using Guid(0e805feb9b6c8834880cf99f985a7b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fa8eba66f942d7e36bbe35395f117a') in 0.007223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/Doodle Jump/doodle-jump.png
+  artifactKey: Guid(1de1f9ccf3fb44349a8a7812c0cee304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/doodle-jump.png using Guid(1de1f9ccf3fb44349a8a7812c0cee304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d057095cde55469036695cb9110356') in 0.006582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Art/Doodle Jump/ach-jetpack.png
+  artifactKey: Guid(11328bf8975b3e947aa4396ddfdf0b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ach-jetpack.png using Guid(11328bf8975b3e947aa4396ddfdf0b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c442f71d1c859a443071f0660b8b886') in 0.011177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/boing.png
+  artifactKey: Guid(588d69e270dbbd84f93787c10cb7de14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/boing.png using Guid(588d69e270dbbd84f93787c10cb7de14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb5b3d0ef92a0aae7fba3cc8fbcfe1b') in 0.007124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.194268 seconds.
+  path: Assets/Art/Doodle Jump/news-bck@2x.png
+  artifactKey: Guid(d88329eeda501c34a92c58af8e80fb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/news-bck@2x.png using Guid(d88329eeda501c34a92c58af8e80fb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4970d9aebf9c3b13106bdf97e0bf289a') in 0.044695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Art/Doodle Jump/halloween-bck2@2x_ORIG.png
+  artifactKey: Guid(617170e4f82395a4fa44e7d1131c82ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/halloween-bck2@2x_ORIG.png using Guid(617170e4f82395a4fa44e7d1131c82ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0616c7559334eb41e67fa5eb8fb66817') in 0.046964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/Doodle Jump/hop-bck.png
+  artifactKey: Guid(abe0781600218df4fbbe5e44bbb1551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/hop-bck.png using Guid(abe0781600218df4fbbe5e44bbb1551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5d91fe02c7d0ee2954766323dc906a') in 0.017597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Art/Doodle Jump/ice-bck@2x.png
+  artifactKey: Guid(54de0c750fcdb414789be84088a6c73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ice-bck@2x.png using Guid(54de0c750fcdb414789be84088a6c73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35bb3c4e932041cdded37d07675539f') in 0.047521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.019843 seconds.
+  path: Assets/Art/Doodle Jump/lik-puca@2x.png
+  artifactKey: Guid(d9f2f0519b45a674f8b6a0e0cd9c103d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/lik-puca@2x.png using Guid(d9f2f0519b45a674f8b6a0e0cd9c103d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197a54c397e6d10ce889661a6ca16d2e') in 0.028791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000701 seconds.
+  path: Assets/Art/Doodle Jump/lik-right-odskok@2x.png
+  artifactKey: Guid(487e1c1ebcfbcf04cad1b867d3ecbd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/lik-right-odskok@2x.png using Guid(487e1c1ebcfbcf04cad1b867d3ecbd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83e9aef7bcb5758c23e8a978908963f') in 0.010892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Art/Doodle Jump/lik-right-odskok.png
+  artifactKey: Guid(32cb77620dde9014586fdc9499b5389e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/lik-right-odskok.png using Guid(32cb77620dde9014586fdc9499b5389e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b40e3435f941b097fd25bace87871a') in 0.011552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031108 seconds.
+  path: Assets/Art/Doodle Jump/ach-endurance-jumper@2x.png
+  artifactKey: Guid(7e7aa1710b45b134ea43f891bf008b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ach-endurance-jumper@2x.png using Guid(7e7aa1710b45b134ea43f891bf008b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd97b2bf63d90f22d0802582ab9e57c9') in 0.007653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Doodle Jump/ach-epic-fail.png
+  artifactKey: Guid(fb276a5c7caecc34c9fdea1012f94576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ach-epic-fail.png using Guid(fb276a5c7caecc34c9fdea1012f94576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3403a27f6111c95f67800407143b6d8b') in 0.006456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Doodle Jump/ach-epic-fail-ftw@2x.png
+  artifactKey: Guid(e18c40685f4cd0c46ac1dccdffca14b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Doodle Jump/ach-epic-fail-ftw@2x.png using Guid(e18c40685f4cd0c46ac1dccdffca14b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4007694e45406e1eb639dabc93634f') in 0.006991 seconds 
