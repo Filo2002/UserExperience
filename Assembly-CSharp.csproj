@@ -65,6 +65,8 @@
     <Compile Include="Assets/ButtonManager.cs" />
     <Compile Include="Assets/Click.cs" />
     <Compile Include="Assets/BigBounce.cs" />
+    <Compile Include="Assets/Filippo/SETTINGS.cs" />
+    <Compile Include="Assets/Filippo/ShopInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

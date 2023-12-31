@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class Controller : MonoBehaviour
 {
     private ScoreStorage scoreStorage = new ScoreStorage();
+    private SETTINGS settings = new SETTINGS();
+
     private Rigidbody2D rb2d;
     private float moveInput;
     private float speed = 10f;
@@ -16,9 +18,16 @@ public class Controller : MonoBehaviour
     public Text scoreText;
     public Text startText;
 
+    public SpriteRenderer spriteRenderer;
+    public Sprite player0, player1;
+
     // Start is called before the first frame update
     void Start()
     {
+        if (settings.GetSkin() == 0)
+            spriteRenderer.sprite = player0;
+        else
+            spriteRenderer.sprite = player1;
 
         rb2d = GetComponent<Rigidbody2D>();
 
@@ -47,13 +56,13 @@ public class Controller : MonoBehaviour
             if (moveInput < 0)
             {
 
-                this.GetComponent<SpriteRenderer>().flipX = false;
+                this.GetComponent<SpriteRenderer>().flipX = settings.GetSkin() == 1;
 
             }
             else
             {
 
-                this.GetComponent<SpriteRenderer>().flipX = true;
+                this.GetComponent<SpriteRenderer>().flipX = settings.GetSkin() != 1;
 
             }
 

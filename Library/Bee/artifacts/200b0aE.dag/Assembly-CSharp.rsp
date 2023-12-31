@@ -29,6 +29,7 @@
 -define:PLATFORM_ARCH_64
 -define:UNITY_64
 -define:UNITY_INCLUDE_TESTS
+-define:UNITY_ANALYTICS
 -define:ENABLE_AR
 -define:ENABLE_AUDIO
 -define:ENABLE_CACHING
@@ -366,6 +367,8 @@
 "Assets/Click.cs"
 "Assets/Controller.cs"
 "Assets/Destroy.cs"
+"Assets/Filippo/SETTINGS.cs"
+"Assets/Filippo/ShopInfo.cs"
 "Assets/Finish.cs"
 "Assets/ScoreStorage.cs"
 "Assets/Spring.cs"
