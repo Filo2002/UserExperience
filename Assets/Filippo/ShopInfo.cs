@@ -48,12 +48,12 @@ public class ShopInfo : MonoBehaviour
 
         if (available)
         {
-            text_buttonBuy.text = "Selected";
+            text_buttonBuy.text = "SELEZIONATO";
 
         }
         else
         {
-            text_buttonBuy.text = "Available";
+            text_buttonBuy.text = "DISPONIBILE";
 
         }
     }
