@@ -25,6 +25,7 @@ public class SETTINGS : MonoBehaviour
     public static Skin current_skin = Skin.player1;
     public static Base current_base = Base.base1;
     public static Background current_background = Background.background1;
+    public static int points = 0, record = 0;
 
     void Awake()
     {
@@ -39,6 +40,28 @@ public class SETTINGS : MonoBehaviour
     public void SetSkin(int code)
     {
         current_skin = (Skin)code;
+
+    }
+
+    public int GetPoints()
+    {
+        return points;
+    }
+
+    public void SetPoints(int x)
+    {
+        points = x;
+
+    }
+
+    public int GetRecord()
+    {
+        return record;
+    }
+
+    public void SetRecord(int x)
+    {
+        record = x;
 
     }
 

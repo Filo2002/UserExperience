@@ -57,8 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Bounce.cs" />
-    <Compile Include="Assets/Finish.cs" />
-    <Compile Include="Assets/ScoreStorage.cs" />
     <Compile Include="Assets/Controller.cs" />
     <Compile Include="Assets/Filippo/ShopInfo.cs" />
     <Compile Include="Assets/Destroy.cs" />
@@ -67,6 +65,7 @@
     <Compile Include="Assets/Filippo/SETTINGS.cs" />
     <Compile Include="Assets/Click.cs" />
     <Compile Include="Assets/BigBounce.cs" />
+    <Compile Include="Assets/GetPoints.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

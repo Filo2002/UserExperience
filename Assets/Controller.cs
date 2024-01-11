@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class Controller : MonoBehaviour
 {
-    private ScoreStorage scoreStorage = new ScoreStorage();
     private SETTINGS settings = new SETTINGS();
 
     private Rigidbody2D rb2d;
@@ -38,7 +37,7 @@ public class Controller : MonoBehaviour
 
      void Update()
     {
-        if(rb2d.transform.position.y < scoreStorage.GetScore() - 50)
+        if(rb2d.transform.position.y < settings.GetPoints() - 50)
             SceneManager.LoadScene("Finish");
 
         if (Input.GetKeyDown(KeyCode.Space) && isStarted == false)
@@ -66,12 +65,13 @@ public class Controller : MonoBehaviour
 
             }
 
-            if (rb2d.velocity.y > 0 && transform.position.y > scoreStorage.GetScore())
-                scoreStorage.SetScore(transform.position.y);
+            if (rb2d.velocity.y > 0 && transform.position.y > 0)
+                settings.SetPoints((int)transform.position.y);
 
-            
+            if (settings.GetPoints() > settings.GetRecord())
+                settings.SetRecord(settings.GetPoints());
 
-            scoreText.text = "Punteggio: " + Mathf.Round(scoreStorage.GetScore()).ToString();
+            scoreText.text = "Punteggio: " + Mathf.Round(settings.GetPoints()).ToString();
         }
 
     }

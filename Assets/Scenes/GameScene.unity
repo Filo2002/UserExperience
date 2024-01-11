@@ -308,8 +308,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48e393b6bbc2848be96ac78fb9d74538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skin1: {fileID: 128078728}
-  skin2: {fileID: 0}
 --- !u!4 &387238466
 Transform:
   m_ObjectHideFlags: 0
@@ -817,7 +815,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: ec441816670874142a0a5bcc8b39d35a, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.15686275, g: 0.15686275, b: 0.15686275, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -961,7 +959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 1}
+  m_Color: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -969,7 +967,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 004a1f909041cd84c894a10d30e01691, type: 3}
+    m_Font: {fileID: 12800000, guid: 115ff6393c1a044c08f9dad6001f5234, type: 3}
     m_FontSize: 104
     m_FontStyle: 1
     m_BestFit: 0
@@ -1103,7 +1101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
+  m_Color: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1111,7 +1109,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 004a1f909041cd84c894a10d30e01691, type: 3}
+    m_Font: {fileID: 12800000, guid: 115ff6393c1a044c08f9dad6001f5234, type: 3}
     m_FontSize: 110
     m_FontStyle: 0
     m_BestFit: 0
