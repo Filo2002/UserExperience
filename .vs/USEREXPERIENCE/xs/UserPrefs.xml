@@ -1,28 +1,23 @@
-﻿<Properties StartupConfiguration="{F485A14C-A5B2-3B85-CA72-C854474E6723}|">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d1275f34-6057-4835-a23b-d8db851f7e82" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Filippo/ShopInfo.cs">
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ButtonManager.cs">
     <Files>
-      <File FileName="Assets/Filippo/SETTINGS.cs" Line="25" Column="23" />
-      <File FileName="Assets/Filippo/ShopInfo.cs" Line="36" Column="31" />
+      <File FileName="Assets/ButtonManager.cs" Line="37" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="USEREXPERIENCE" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Filippo" expanded="True">
-                <Node name="ShopInfo.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="USEREXPERIENCE" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <DisabledProjects>
+    <String>Assembly-CSharp.csproj</String>
+  </DisabledProjects>
 </Properties>
