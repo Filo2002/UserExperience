@@ -27,11 +27,6 @@ public class SETTINGS : MonoBehaviour
     public static Background current_background = Background.background1;
     public static int points = 0, record = 0;
 
-    void Awake()
-    {
-        DontDestroyOnLoad(this.gameObject);
-    }
-
     public int GetSkin()
     {
         return (int)current_skin;

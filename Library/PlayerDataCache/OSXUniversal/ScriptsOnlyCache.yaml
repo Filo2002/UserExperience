@@ -133,8 +133,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
     - Class: 61
@@ -199,6 +197,8 @@ ScriptsOnlyBuild:
     - Class: 28
       Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
@@ -932,8 +932,8 @@ ScriptsOnlyBuild:
     className: Terrain
   platform: 2
   scenePathNames:
-  - Assets/Scenes/GameScene.unity
   - Assets/Scenes/Menu.unity
-  - Assets/Filippo/Finish.unity
   - Assets/Shop.unity
+  - Assets/Scenes/GameScene.unity
+  - Assets/Filippo/Finish.unity
   playerPath: /Users/filippomariani/Desktop/userExperienceBuild.app

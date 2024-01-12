@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
-    guid: c9b619e8e21427844964349ce7a491c0
-  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 97072e8276524254592f213117fbee91
   - enabled: 1
-    path: Assets/Filippo/Finish.unity
-    guid: e5ceb15faa8034f0d9a1c07d09b65384
-  - enabled: 1
     path: Assets/Shop.unity
     guid: a495037c0a45b44a6bc6d92f6cf43e4c
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: c9b619e8e21427844964349ce7a491c0
+  - enabled: 1
+    path: Assets/Filippo/Finish.unity
+    guid: e5ceb15faa8034f0d9a1c07d09b65384
   m_configObjects: {}
