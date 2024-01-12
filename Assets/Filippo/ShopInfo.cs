@@ -12,7 +12,7 @@ public class ShopInfo : MonoBehaviour
     public Button buttonBuy;
     public Text text_buttonBuy;
 
-    private void Awake()
+    private void Start()
     {
         buttonBuy.onClick.AddListener(() =>
         {
