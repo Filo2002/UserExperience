@@ -66,6 +66,7 @@
     <Compile Include="Assets/Click.cs" />
     <Compile Include="Assets/BigBounce.cs" />
     <Compile Include="Assets/GetPoints.cs" />
+    <Compile Include="Assets/Terrain.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

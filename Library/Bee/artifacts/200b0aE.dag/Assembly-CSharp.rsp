@@ -371,6 +371,7 @@
 "Assets/Filippo/ShopInfo.cs"
 "Assets/GetPoints.cs"
 "Assets/Spring.cs"
+"Assets/Terrain.cs"
 -langversion:9.0
 
 /deterministic
