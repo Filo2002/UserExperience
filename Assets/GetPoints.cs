@@ -9,11 +9,12 @@ public class GetPoints : MonoBehaviour
     public Text text;
     public Text recordText;
     public int isRecord = 0;
-    private SETTINGS settings = new SETTINGS();
+    private SETTINGS settings;
 
     // Start is called before the first frame update
     void Start()
     {
+        settings = new SETTINGS();
         if(isRecord == 0)
             text.text = settings.GetPoints().ToString();
         else

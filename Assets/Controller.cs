@@ -71,7 +71,7 @@ public class Controller : MonoBehaviour
             if (settings.GetPoints() > settings.GetRecord())
                 settings.SetRecord(settings.GetPoints());
 
-            scoreText.text = "Punteggio: " + Mathf.Round(settings.GetPoints()).ToString();
+            scoreText.text = "Punteggio " + settings.GetPlayer1Name() + " : " + Mathf.Round(settings.GetPoints()).ToString();
         }
 
     }

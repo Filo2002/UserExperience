@@ -61,13 +61,13 @@
     <Compile Include="Assets/Terrain.cs" />
     <Compile Include="Assets/Controller.cs" />
     <Compile Include="Assets/Filippo/ShopInfo.cs" />
+    <Compile Include="Assets/FInish.cs" />
     <Compile Include="Assets/Destroy.cs" />
     <Compile Include="Assets/Spring.cs" />
     <Compile Include="Assets/ButtonManager.cs" />
     <Compile Include="Assets/Filippo/SETTINGS.cs" />
     <Compile Include="Assets/Click.cs" />
     <Compile Include="Assets/BigBounce.cs" />
-    <Compile Include="Assets/FInish.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
