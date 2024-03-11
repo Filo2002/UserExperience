@@ -3,25 +3,24 @@
     <Files>
       <File FileName="Assets/ButtonManager.cs" />
       <File FileName="Assets/GetPoints.cs" />
-      <File FileName="Assets/Controller.cs" Line="1" Column="1" />
-      <File FileName="Assets/Destroy.cs" Line="1" Column="1" />
-      <File FileName="Assets/BigBounce.cs" Line="1" Column="1" />
+      <File FileName="Assets/Filippo/SETTINGS.cs" />
+      <File FileName="Assets/Destroy.cs" Line="13" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="USEREXPERIENCE" expanded="True" />
+          <Node name="USEREXPERIENCE" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <DisabledProjects>
-    <String>Assembly-CSharp.csproj</String>
-  </DisabledProjects>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <DisabledProjects>
+    <String>Assembly-CSharp.csproj</String>
+  </DisabledProjects>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

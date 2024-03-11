@@ -10,7 +10,8 @@ using Vector2 = UnityEngine.Vector2;
 
 public class Destroy : MonoBehaviour
 {
-
+    public AudioSource audioSource;
+    public AudioClip jump1, jump2;
     public GameObject player;
     public GameObject platformPrefab;
     public GameObject springPrefab;
@@ -43,10 +44,10 @@ public class Destroy : MonoBehaviour
 
         if (collision.gameObject.name.StartsWith("Platform"))
         {
-
+            
             if (Random.Range(1, 7) == 1)
             {
-
+                
                 Destroy(collision.gameObject);
                 Instantiate(springPrefab, new Vector2(Random.Range(-4.5f, 4.5f), player.transform.position.y + (14 + Random.Range(0.2f, 1.0f))), Quaternion.identity);
                 Instantiate(terrainPrefab, new Vector2(Random.Range(-7f, 7f), player.transform.position.y + (14 + Random.Range(-7f, 7f))), Quaternion.identity);
@@ -54,7 +55,8 @@ public class Destroy : MonoBehaviour
             }
             else
             {
-
+                audioSource.clip = jump1;
+                audioSource.Play();
                 collision.gameObject.transform.position = new Vector2(Random.Range(-4.5f, 4.5f), player.transform.position.y + (14 + Random.Range(0.2f, 1.0f)));
 
             }
@@ -63,16 +65,17 @@ public class Destroy : MonoBehaviour
 
         else if(collision.gameObject.name.StartsWith("Spring"))
         {
-
+           
             if (Random.Range(1, 7) == 1)
             {
 
                 collision.gameObject.transform.position = new Vector2(Random.Range(-4.5f, 4.5f), player.transform.position.y + (14 + Random.Range(0.2f, 1.0f)));
-
+                audioSource.clip = jump2;
+                audioSource.Play();
             }
             else
             {
-
+               
                 Destroy(collision.gameObject);
                 Instantiate(platformPrefab, new Vector2(Random.Range(-4.5f, 4.5f), player.transform.position.y + (14 + Random.Range(0.2f, 1.0f))), Quaternion.identity);
 

@@ -130,6 +130,7 @@
 -r:"/Users/filippomariani/Documents/Unity/2021.3.19f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 -r:"/Users/filippomariani/Documents/Unity/2021.3.19f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
 -r:"/Users/filippomariani/Documents/Unity/2021.3.19f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"/Users/filippomariani/Documents/Unity/2021.3.19f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"/Users/filippomariani/Documents/Unity/2021.3.19f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
 -r:"/Users/filippomariani/Documents/Unity/2021.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"/Users/filippomariani/Documents/Unity/2021.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"

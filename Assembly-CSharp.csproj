@@ -56,7 +56,9 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/GetPoints.cs" />
     <Compile Include="Assets/Bounce.cs" />
+    <Compile Include="Assets/Terrain.cs" />
     <Compile Include="Assets/Controller.cs" />
     <Compile Include="Assets/Filippo/ShopInfo.cs" />
     <Compile Include="Assets/Destroy.cs" />
@@ -65,8 +67,7 @@
     <Compile Include="Assets/Filippo/SETTINGS.cs" />
     <Compile Include="Assets/Click.cs" />
     <Compile Include="Assets/BigBounce.cs" />
-    <Compile Include="Assets/GetPoints.cs" />
-    <Compile Include="Assets/Terrain.cs" />
+    <Compile Include="Assets/FInish.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
