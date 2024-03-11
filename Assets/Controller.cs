@@ -36,7 +36,7 @@ public class Controller : MonoBehaviour
      void Update()
     {
 
-        if (rb2d.transform.position.y < SETTINGS.points - 50)
+        if (rb2d.transform.position.y < SETTINGS.GetPoints(SETTINGS.isFirstPlayer) - 50)
         {
             if(SETTINGS.singleplayer)
                 SceneManager.LoadScene("Finish");
@@ -77,16 +77,18 @@ public class Controller : MonoBehaviour
 
             }
 
-            if (rb2d.velocity.y > 0 && transform.position.y > 0)
-                SETTINGS.points = ((int)transform.position.y);
-
             bool isFirstPlayer = SETTINGS.isFirstPlayer;
 
-            if (SETTINGS.points > SETTINGS.GetRecord(isFirstPlayer))
-                SETTINGS.SetRecord(isFirstPlayer, SETTINGS.points);
+
+            if (rb2d.velocity.y > 0 && transform.position.y > 0)
+                SETTINGS.SetPoints(isFirstPlayer, ((int)transform.position.y));
 
 
-            scoreText.text = "Punteggio " + SETTINGS.GetPlayerName(isFirstPlayer) + " : " + Mathf.Round(SETTINGS.points).ToString();
+            if (SETTINGS.GetPoints(isFirstPlayer) > SETTINGS.GetRecord(isFirstPlayer))
+                SETTINGS.SetRecord(isFirstPlayer, SETTINGS.GetPoints(isFirstPlayer));
+
+
+            scoreText.text = "Punteggio " + SETTINGS.GetPlayerName(isFirstPlayer) + " : " + Mathf.Round(SETTINGS.GetPoints(isFirstPlayer)).ToString();
         }
 
     }

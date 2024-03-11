@@ -28,7 +28,7 @@ public class SETTINGS : MonoBehaviour
     public static Skin current_skin = Skin.player1;
     public static Base current_base = Base.base1;
     public static Background current_background = Background.background1;
-    public static int points = 0, record1 = 0, record2 = 0;
+    public static int points1 = 0, points2 = 0, record1 = 0, record2 = 0;
     public static bool singleplayer = true;
     public static string player1 = "", player2 = "";
     public static bool isFirstPlayer = true;
@@ -81,6 +81,22 @@ public class SETTINGS : MonoBehaviour
             return record1;
         else
             return record2;
+    }
+
+    public static int GetPoints(bool isFirstPlayer)
+    {
+        if (isFirstPlayer)
+            return points1;
+        else
+            return points2;
+    }
+
+    public static void SetPoints(bool isFirstPlayer, int x)
+    {
+        if (isFirstPlayer)
+            points1 = x;
+        else
+            points2 = x;
     }
 
     public static void SetRecord(bool isFirstPlayer, int x)
