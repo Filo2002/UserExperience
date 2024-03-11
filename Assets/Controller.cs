@@ -6,8 +6,6 @@ using UnityEngine.UI;
 
 public class Controller : MonoBehaviour
 {
-    private SETTINGS settings = new SETTINGS();
-
     private Rigidbody2D rb2d;
     private float moveInput;
     private float speed = 10f;
@@ -23,7 +21,7 @@ public class Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (settings.GetSkin() == 0)
+        if (SETTINGS.current_skin == 0)
             spriteRenderer.sprite = player0;
         else
             spriteRenderer.sprite = player1;
@@ -37,8 +35,22 @@ public class Controller : MonoBehaviour
 
      void Update()
     {
-        if(rb2d.transform.position.y < settings.GetPoints() - 50)
-            SceneManager.LoadScene("Finish");
+
+        if (rb2d.transform.position.y < SETTINGS.points - 50)
+        {
+            if(SETTINGS.singleplayer)
+                SceneManager.LoadScene("Finish");
+            else if (SETTINGS.isFirstPlayer)
+            {
+                SETTINGS.isFirstPlayer = false;
+                SceneManager.LoadScene("GameScene");
+            }
+            else
+            {
+                SceneManager.LoadScene("Finish");
+            }
+        }
+        
 
         if (Input.GetKeyDown(KeyCode.Space) && isStarted == false)
         {
@@ -55,23 +67,26 @@ public class Controller : MonoBehaviour
             if (moveInput < 0)
             {
 
-                this.GetComponent<SpriteRenderer>().flipX = settings.GetSkin() == 1;
+                this.GetComponent<SpriteRenderer>().flipX = SETTINGS.current_skin == (Skin)1;
 
             }
             else
             {
 
-                this.GetComponent<SpriteRenderer>().flipX = settings.GetSkin() != 1;
+                this.GetComponent<SpriteRenderer>().flipX = SETTINGS.current_skin != (Skin)1;
 
             }
 
             if (rb2d.velocity.y > 0 && transform.position.y > 0)
-                settings.SetPoints((int)transform.position.y);
+                SETTINGS.points = ((int)transform.position.y);
 
-            if (settings.GetPoints() > settings.GetRecord())
-                settings.SetRecord(settings.GetPoints());
+            bool isFirstPlayer = SETTINGS.isFirstPlayer;
 
-            scoreText.text = "Punteggio " + settings.GetPlayer1Name() + " : " + Mathf.Round(settings.GetPoints()).ToString();
+            if (SETTINGS.points > SETTINGS.GetRecord(isFirstPlayer))
+                SETTINGS.SetRecord(isFirstPlayer, SETTINGS.points);
+
+
+            scoreText.text = "Punteggio " + SETTINGS.GetPlayerName(isFirstPlayer) + " : " + Mathf.Round(SETTINGS.points).ToString();
         }
 
     }

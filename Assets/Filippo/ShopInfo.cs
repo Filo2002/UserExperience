@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class ShopInfo : MonoBehaviour
 {
-    static SETTINGS settings = new SETTINGS();
     public int code;
     public string shopType;
 
@@ -19,10 +18,10 @@ public class ShopInfo : MonoBehaviour
             switch(shopType)
             {
                 case "skin":
-                    settings.SetSkin(code);
+                    SETTINGS.current_skin = (Skin)code;
                     break;
                 case "base":
-                    settings.SetBase(code);
+                    SETTINGS.current_base = (Base)code;
 
                     break;
             }
@@ -38,10 +37,10 @@ public class ShopInfo : MonoBehaviour
         switch (shopType)
         {
             case "skin":
-                available = code == settings.GetSkin();
+                available = code == (int)SETTINGS.current_skin;
                 break;
             case "base":
-                available = code == settings.GetBase();
+                available = code == (int)SETTINGS.current_base;
                 break;
 
         }

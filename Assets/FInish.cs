@@ -10,6 +10,7 @@ public class FInish : MonoBehaviour
     void Start()
     {
         source.clip = death;
+        SETTINGS.isFirstPlayer = true;
     }
 
     // Update is called once per frame

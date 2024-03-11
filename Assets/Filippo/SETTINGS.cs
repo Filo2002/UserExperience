@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Profiling;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
@@ -27,18 +28,30 @@ public class SETTINGS : MonoBehaviour
     public static Skin current_skin = Skin.player1;
     public static Base current_base = Base.base1;
     public static Background current_background = Background.background1;
-    public static int points = 0, record = 0;
+    public static int points = 0, record1 = 0, record2 = 0;
     public static bool singleplayer = true;
-    public static string player1 = "Player 1", player2 = "Player 2";
+    public static string player1 = "", player2 = "";
+    public static bool isFirstPlayer = true;
 
     public UnityEngine.UI.Toggle toggleSingleplayer;
     public InputField Player1Name, Player2Name;
 
     private void Start()
     {
+        toggleSingleplayer.isOn = singleplayer;
+        Player1Name.text = player1;
+        Player2Name.text = player2;
+
+
         toggleSingleplayer.onValueChanged.AddListener(delegate {
             singleplayer = !singleplayer;
             Player2Name.interactable = !singleplayer;
+            if (singleplayer)
+            {
+                Player2Name.text = "";
+                player2 = "";
+                record2 = 0;
+            }
         });
 
         Player1Name.onValueChanged.AddListener(delegate {
@@ -52,64 +65,30 @@ public class SETTINGS : MonoBehaviour
         });
     }
 
-    public void ChangeSingleplayer()
+
+    public static string GetPlayerName(bool isFirstPlayer)
     {
-        singleplayer = !singleplayer;
+        if (isFirstPlayer)
+            return string.IsNullOrEmpty(player1) ? "Player 1" : player1;
+        else
+            return string.IsNullOrEmpty(player2) ? "Player 2" : player2;
     }
 
-    public string GetPlayer1Name()
+
+    public static int GetRecord(bool isFirstPlayer)
     {
-        return player1;
+        if (isFirstPlayer)
+            return record1;
+        else
+            return record2;
     }
 
-    public string GetPlayer2Name()
+    public static void SetRecord(bool isFirstPlayer, int x)
     {
-        return player2;
+        if (isFirstPlayer)
+            record1 = x;
+        else
+            record2 = x;
     }
-
-    public int GetSkin()
-    {
-        return (int)current_skin;
-    }
-
-    public void SetSkin(int code)
-    {
-        current_skin = (Skin)code;
-
-    }
-
-    public int GetPoints()
-    {
-        return points;
-    }
-
-    public void SetPoints(int x)
-    {
-        points = x;
-
-    }
-
-    public int GetRecord()
-    {
-        return record;
-    }
-
-    public void SetRecord(int x)
-    {
-        record = x;
-
-    }
-
-    public int GetBase()
-    {
-        return (int)current_base;
-    }
-
-    public void SetBase(int code)
-    {
-        current_base = (Base)code;
-
-    }
-
 
 }

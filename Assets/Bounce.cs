@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class Bounce : MonoBehaviour
 {
-    static SETTINGS settings = new SETTINGS();
     public SpriteRenderer spriteRenderer;
     public Sprite base0, base1;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (settings.GetBase() == 0)
+        if (SETTINGS.current_base == 0)
             spriteRenderer.sprite = base0;
         else
             spriteRenderer.sprite = base1;

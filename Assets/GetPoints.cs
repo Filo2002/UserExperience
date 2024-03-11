@@ -6,19 +6,21 @@ using UnityEngine.UI;
 public class GetPoints : MonoBehaviour
 {
 
-    public Text text;
-    public Text recordText;
-    public int isRecord = 0;
-    private SETTINGS settings;
+    public Text recordText1;
+    public Text recordText2;
 
     // Start is called before the first frame update
     void Start()
     {
-        settings = new SETTINGS();
-        if(isRecord == 0)
-            text.text = settings.GetPoints().ToString();
+        if (SETTINGS.GetRecord(true) == 0)
+            recordText1.text = "";
         else
-            recordText.text = "RECORD: " + settings.GetRecord().ToString();
+            recordText1.text = "RECORD " + SETTINGS.GetPlayerName(true) + " : " + SETTINGS.GetRecord(true).ToString();
+
+        if (SETTINGS.GetRecord(false) == 0)
+            recordText2.text = "";
+        else
+            recordText2.text = "RECORD " + SETTINGS.GetPlayerName(false) + " : " + SETTINGS.GetRecord(false).ToString();
     }
 
     // Update is called once per frame
