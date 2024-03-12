@@ -26,7 +26,9 @@ public class GetPoints : MonoBehaviour
                 recordText2.text = "";
             else
                 recordText2.text = recordText + SETTINGS.GetPlayerName(false) + " : " + points2;
-      
+
+        SETTINGS.points1 = 0;
+        SETTINGS.points2 = 0;
     }
 
     // Update is called once per frame
