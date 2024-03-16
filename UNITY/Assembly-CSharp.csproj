@@ -56,19 +56,19 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/GetPoints.cs" />
-    <Compile Include="Assets/Bounce.cs" />
-    <Compile Include="Assets/Terrain.cs" />
-    <Compile Include="Assets/Controller.cs" />
-    <Compile Include="Assets/Filippo/ShopInfo.cs" />
-    <Compile Include="Assets/FInish.cs" />
-    <Compile Include="Assets/Destroy.cs" />
-    <Compile Include="Assets/Spring.cs" />
-    <Compile Include="Assets/ButtonManager.cs" />
-    <Compile Include="Assets/Filippo/SETTINGS.cs" />
-    <Compile Include="Assets/Click.cs" />
-    <Compile Include="Assets/BigBounce.cs" />
-    <Compile Include="Assets/LoadBar.cs" />
+    <Compile Include="Assets/Scripts/GetPoints.cs" />
+    <Compile Include="Assets/Scripts/Bounce.cs" />
+    <Compile Include="Assets/Scripts/Terrain.cs" />
+    <Compile Include="Assets/Scripts/Controller.cs" />
+    <Compile Include="Assets/Scripts/ShopInfo.cs" />
+    <Compile Include="Assets/Scripts/FInish.cs" />
+    <Compile Include="Assets/Scripts/Destroy.cs" />
+    <Compile Include="Assets/Scripts/Spring.cs" />
+    <Compile Include="Assets/Scripts/ButtonManager.cs" />
+    <Compile Include="Assets/Scripts/SETTINGS.cs" />
+    <Compile Include="Assets/Scripts/Click.cs" />
+    <Compile Include="Assets/Scripts/BigBounce.cs" />
+    <Compile Include="Assets/Scripts/LoadBar.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
