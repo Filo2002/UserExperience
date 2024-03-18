@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/GetPoints.cs" />
     <Compile Include="Assets/Scripts/Bounce.cs" />
+    <Compile Include="Assets/Scripts/LoadBar.cs" />
     <Compile Include="Assets/Scripts/Terrain.cs" />
     <Compile Include="Assets/Scripts/Controller.cs" />
     <Compile Include="Assets/Scripts/ShopInfo.cs" />
@@ -68,7 +69,6 @@
     <Compile Include="Assets/Scripts/SETTINGS.cs" />
     <Compile Include="Assets/Scripts/Click.cs" />
     <Compile Include="Assets/Scripts/BigBounce.cs" />
-    <Compile Include="Assets/Scripts/LoadBar.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

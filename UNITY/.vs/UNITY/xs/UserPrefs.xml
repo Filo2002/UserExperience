@@ -5,17 +5,17 @@
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8585a2a5-246c-42ef-83be-23ac93c2ae70" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/FInish.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Controller.cs">
     <Files>
-      <File FileName="Assets/FInish.cs" Line="1" Column="1" />
+      <File FileName="Assets/FInish.cs" />
+      <File FileName="Assets/LoadBar.cs" Line="28" Column="1" />
+      <File FileName="Assets/Controller.cs" Line="107" Column="74" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="UNITY" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="FInish.cs" selected="True" />
-            </Node>
+            <Node name="Assets" expanded="True" />
           </Node>
         </State>
       </Pad>
