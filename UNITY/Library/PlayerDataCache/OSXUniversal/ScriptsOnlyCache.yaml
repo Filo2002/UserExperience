@@ -6,19 +6,18 @@ ScriptsOnlyBuild:
     - ButtonManager
     - Controller
     - Destroy
+    - FInish
     - GetPoints
     - SETTINGS
     - ShopInfo
     - Terrain
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
-    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.PlasticSCM.Editor.dll:
     - Unity.PlasticSCM.Editor.PlasticWindow
@@ -35,7 +34,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
   serializedClasses:
     UnityEngine.CoreModule:
     - UnityEngine.Events.ArgumentCache
@@ -46,9 +47,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.FontData
+    - UnityEngine.UI.InputField/EndEditEvent
+    - UnityEngine.UI.InputField/OnChangeEvent
+    - UnityEngine.UI.InputField/SubmitEvent
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
@@ -56,6 +61,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: goToShop
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: goToMenu
@@ -63,7 +74,7 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonManager
     methodName: goToMenu
   sceneClasses:
-    Assets/Filippo/Finish.unity:
+    Assets/Scenes/Finish.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -78,6 +89,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -85,21 +100,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 2792}
+      Script: {instanceID: 2374}
     - Class: 114
-      Script: {instanceID: 2880}
+      Script: {instanceID: 2882}
     - Class: 114
       Script: {instanceID: 3058}
     - Class: 114
       Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 3614}
+      Script: {instanceID: 3616}
     - Class: 114
-      Script: {instanceID: 3756}
+      Script: {instanceID: 3758}
     - Class: 114
-      Script: {instanceID: 5208}
+      Script: {instanceID: 4728}
     - Class: 114
-      Script: {instanceID: 34822}
+      Script: {instanceID: 5212}
+    - Class: 114
+      Script: {instanceID: 25034}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -141,28 +158,34 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1588}
+    - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 2496}
+      Script: {instanceID: 2498}
     - Class: 114
-      Script: {instanceID: 2880}
+      Script: {instanceID: 2882}
     - Class: 114
       Script: {instanceID: 3058}
     - Class: 114
       Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 3614}
+      Script: {instanceID: 3476}
     - Class: 114
-      Script: {instanceID: 4070}
+      Script: {instanceID: 3616}
     - Class: 114
-      Script: {instanceID: 4984}
+      Script: {instanceID: 4072}
     - Class: 114
-      Script: {instanceID: 6232}
+      Script: {instanceID: 4988}
     - Class: 114
-      Script: {instanceID: 91020}
+      Script: {instanceID: 6236}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -213,23 +236,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 2496}
+      Script: {instanceID: 1788}
     - Class: 114
-      Script: {instanceID: 2880}
+      Script: {instanceID: 2374}
+    - Class: 114
+      Script: {instanceID: 2498}
+    - Class: 114
+      Script: {instanceID: 2882}
     - Class: 114
       Script: {instanceID: 3058}
     - Class: 114
       Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 3614}
+      Script: {instanceID: 3412}
     - Class: 114
-      Script: {instanceID: 3756}
+      Script: {instanceID: 3616}
     - Class: 114
-      Script: {instanceID: 5208}
+      Script: {instanceID: 3758}
     - Class: 114
-      Script: {instanceID: 5234}
+      Script: {instanceID: 5212}
     - Class: 114
-      Script: {instanceID: 34822}
+      Script: {instanceID: 5238}
+    - Class: 114
+      Script: {instanceID: 21240}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -252,7 +281,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
-    Assets/Shop.unity:
+    Assets/Scenes/Shop.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -278,19 +307,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 2880}
+      Script: {instanceID: 2882}
     - Class: 114
       Script: {instanceID: 3058}
     - Class: 114
       Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 3614}
+      Script: {instanceID: 3616}
     - Class: 114
-      Script: {instanceID: 3756}
+      Script: {instanceID: 3758}
     - Class: 114
-      Script: {instanceID: 4638}
+      Script: {instanceID: 4640}
     - Class: 114
-      Script: {instanceID: 5208}
+      Script: {instanceID: 5212}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -432,6 +461,12 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
+      Hash: 921ec9c47ba9a54edb126206566080b0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GetPoints
+  - hash:
+      serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -454,6 +489,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Bounce
+  - hash:
+      serializedVersion: 2
+      Hash: 4ac42a93d6a4ef872096829425421c5c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadBar
   - hash:
       serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
@@ -564,6 +605,12 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Terrain
+  - hash:
+      serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -618,7 +665,7 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
-      Hash: 596946dfe801455e7495b44fce40529d
+      Hash: 5d3bf782a09dec080ad9c8e42d4fdde0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Controller
@@ -744,6 +791,12 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
+      Hash: 1523d1648faf705cc08bd3075dd38a1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FInish
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -762,7 +815,7 @@ ScriptsOnlyBuild:
     className: AnalyticsLifetime
   - hash:
       serializedVersion: 2
-      Hash: 3e997b52ee32e4899071250ba2e562ca
+      Hash: ab74994b40bd57a6b1b4dc9ae62abdf0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Destroy
@@ -828,7 +881,7 @@ ScriptsOnlyBuild:
     className: ButtonManager
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: e04f9460da25fa5e1b5d4d9c987e2d8d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SETTINGS
@@ -916,22 +969,10 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BigBounce
-  - hash:
-      serializedVersion: 2
-      Hash: 2c366e06613f329a598b377615413834
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GetPoints
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Terrain
   platform: 2
   scenePathNames:
   - Assets/Scenes/Menu.unity
-  - Assets/Shop.unity
+  - Assets/Scenes/Shop.unity
   - Assets/Scenes/GameScene.unity
-  - Assets/Filippo/Finish.unity
-  playerPath: /Users/filippomariani/Desktop/userExperienceBuild.app
+  - Assets/Scenes/Finish.unity
+  playerPath: /Users/filippomariani/Desktop/UserExperience/CosmicJumper.app

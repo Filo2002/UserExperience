@@ -110,9 +110,9 @@
 -define:PACKAGE_UITOOLKIT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"/Users/filippomariani/Desktop/UserExperience/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
--r:"/Users/filippomariani/Desktop/UserExperience/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll"
--r:"/Users/filippomariani/Desktop/UserExperience/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
+-r:"/Users/filippomariani/Desktop/UserExperience/UNITY/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
+-r:"/Users/filippomariani/Desktop/UserExperience/UNITY/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll"
+-r:"/Users/filippomariani/Desktop/UserExperience/UNITY/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
 -r:"/Users/filippomariani/Documents/Unity/2021.3.19f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"/Users/filippomariani/Documents/Unity/2021.3.19f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"/Users/filippomariani/Documents/Unity/2021.3.19f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
