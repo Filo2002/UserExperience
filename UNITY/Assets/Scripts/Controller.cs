@@ -140,6 +140,7 @@ public class Controller : MonoBehaviour
         {
 
             moveInput = Input.GetAxis("Horizontal");
+            Debug.Log(moveInput);
             rb2d.velocity = new Vector2(moveInput * speed, rb2d.velocity.y);
 
         }

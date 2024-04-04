@@ -1,0 +1,153 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+public class Controller2Player : MonoBehaviour
+{
+    private Rigidbody2D rb2d;
+    private float moveInput;
+    private float speed = 10f;
+
+    private bool isStarted = false, boostInUse = false;
+
+    public Text scoreText;
+    public Text startText;
+
+    public SpriteRenderer spriteRenderer;
+    public Sprite player0, player1;
+
+    public GameObject boostLevel, boost, textBoost;
+
+    float fill;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        boostLevel.transform.localScale = new Vector3(0,1,1);
+        boost.SetActive(false);
+        if (SETTINGS.current_skin == 0)
+            spriteRenderer.sprite = player0;
+        else
+            spriteRenderer.sprite = player1;
+
+        rb2d = GetComponent<Rigidbody2D>();
+
+        rb2d.gravityScale = 0;
+        rb2d.velocity = Vector3.zero;
+
+    }
+
+     void Update()
+    {
+
+        if (rb2d.transform.position.y < SETTINGS.GetPoints(SETTINGS.isFirstPlayer) - 50)
+        {
+            if(SETTINGS.singleplayer)
+                SceneManager.LoadScene("Finish");
+            else if (SETTINGS.isFirstPlayer)
+            {
+                SETTINGS.isFirstPlayer = false;
+                SceneManager.LoadScene("GameScene");
+            }
+            else
+            {
+                SceneManager.LoadScene("Finish");
+            }
+        }
+        
+
+        if (isStarted == false)
+        {
+
+            isStarted = true;
+            boost.SetActive(true);
+            startText.gameObject.SetActive(false);
+            rb2d.gravityScale = 5f;
+
+        }
+
+        if (isStarted == true)
+        {
+
+            if (moveInput < 0)
+            {
+
+                this.GetComponent<SpriteRenderer>().flipX = SETTINGS.current_skin == (Skin)1;
+
+            }
+            else
+            {
+
+                this.GetComponent<SpriteRenderer>().flipX = SETTINGS.current_skin != (Skin)1;
+
+            }
+
+            bool isFirstPlayer = SETTINGS.isFirstPlayer;
+
+            if(Input.GetKeyDown(KeyCode.W) && fill > 0)
+            {
+                boostInUse = true;
+            }
+
+            if (Input.GetKeyUp(KeyCode.W) || fill == 0)
+            {
+                boostInUse = false;
+            }
+
+            //speed
+
+            if (!boostInUse)
+            {
+                fill = (float)(fill + 0.00005) < 1 ? (float)(fill + 0.00005) : 1;
+            }
+            else
+            {
+                fill = (float)(fill - 0.0001) > 0 ? (float)(fill - 0.0001) : 0;
+            }
+
+            if (rb2d.velocity.y > 0 && transform.position.y > 0)
+            {
+                SETTINGS.SetPoints(isFirstPlayer, ((int)transform.position.y));
+               
+            }
+
+            Debug.Log(boostInUse);
+
+            textBoost.GetComponent<Text>().text = boostInUse ? "BOOST ON" : "PREMI W PER USARE IL BOOST";
+
+            boostLevel.GetComponent<Image>().color = boostInUse ? Color.green : Color.red;
+            rb2d.gravityScale = boostInUse ? 3.5f : 5f;
+
+
+            boostLevel.transform.localScale = new Vector3(fill, 1, 1);
+
+
+            if (SETTINGS.GetPoints(isFirstPlayer) > SETTINGS.GetRecord(isFirstPlayer))
+                SETTINGS.SetRecord(isFirstPlayer, SETTINGS.GetPoints(isFirstPlayer));
+
+
+            scoreText.text = "Punteggio " + SETTINGS.GetPlayerName(isFirstPlayer) + " : " + Mathf.Round(SETTINGS.GetPoints(isFirstPlayer)).ToString();
+        }
+
+    }
+
+    void FixedUpdate()
+    {
+
+        if (isStarted == true)
+        {
+            /*if (Input.GetKeyDown(KeyCode.J))
+                moveInput = -1;
+            else if (Input.GetKeyDown(KeyCode.L))
+                moveInput = 1;*/
+
+            moveInput = Input.GetAxis("Horizontal2");
+
+            rb2d.velocity = new Vector2(moveInput * speed, rb2d.velocity.y);
+
+        }
+
+    }
+}

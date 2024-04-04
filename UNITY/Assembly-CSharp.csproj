@@ -69,6 +69,8 @@
     <Compile Include="Assets/Scripts/SETTINGS.cs" />
     <Compile Include="Assets/Scripts/Click.cs" />
     <Compile Include="Assets/Scripts/BigBounce.cs" />
+    <Compile Include="Assets/SetHeight.cs" />
+    <Compile Include="Assets/Scripts/Controller2Player.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -367,6 +367,7 @@
 "Assets/Scripts/ButtonManager.cs"
 "Assets/Scripts/Click.cs"
 "Assets/Scripts/Controller.cs"
+"Assets/Scripts/Controller2Player.cs"
 "Assets/Scripts/Destroy.cs"
 "Assets/Scripts/FInish.cs"
 "Assets/Scripts/GetPoints.cs"
@@ -375,6 +376,7 @@
 "Assets/Scripts/ShopInfo.cs"
 "Assets/Scripts/Spring.cs"
 "Assets/Scripts/Terrain.cs"
+"Assets/SetHeight.cs"
 -langversion:9.0
 
 /deterministic
