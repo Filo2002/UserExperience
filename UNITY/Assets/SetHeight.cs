@@ -23,19 +23,21 @@ public class SetHeight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float yHigher;
-        if(player1.transform.position.y > player2.transform.position.y)
+        float yHigher = player1.transform.position.y > player2.transform.position.y ? player1.transform.position.y : player2.transform.position.y;
+        if(player2.gameObject.active)
         {
-            destroyer2.GetComponent<BoxCollider2D>().isTrigger = false;
-            detroyer.GetComponent<BoxCollider2D>().isTrigger = true;
-            yHigher = player1.transform.position.y;
+            if (player1.transform.position.y > player2.transform.position.y)
+            {
+                detroyer.GetComponent<BoxCollider2D>().isTrigger = true;
+                destroyer2.GetComponent<BoxCollider2D>().isTrigger = false;
+            }
+            else
+            {
+                destroyer2.GetComponent<BoxCollider2D>().isTrigger = true;
+                detroyer.GetComponent<BoxCollider2D>().isTrigger = false;
+            }
         }
-        else
-        {
-            detroyer.GetComponent<BoxCollider2D>().isTrigger = false;
-            destroyer2.GetComponent<BoxCollider2D>().isTrigger = true;
-            yHigher = player2.transform.position.y;
-        }
+        
 
 
         Vector3 temp = new Vector3(camera.transform.position.x, yHigher, camera.transform.position.z);
