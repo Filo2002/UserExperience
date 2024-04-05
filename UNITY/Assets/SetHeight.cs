@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SetHeight : MonoBehaviour
 {
+    public GameObject screen1, screen2;
+
     public GameObject camera;
     public GameObject player1;
 
@@ -11,6 +13,9 @@ public class SetHeight : MonoBehaviour
     public GameObject destroyer2;
 
     public GameObject player2;
+
+    public GameObject boost1;
+
 
     public bool multiplayer = false;
 
@@ -43,10 +48,22 @@ public class SetHeight : MonoBehaviour
         Vector3 temp = new Vector3(camera.transform.position.x, yHigher, camera.transform.position.z);
         camera.transform.SetPositionAndRotation(temp, camera.transform.rotation);
 
-        if(Input.GetKeyDown(KeyCode.K) && multiplayer == false)
+
+
+        if ((Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.L)) && multiplayer == false)
         {
             multiplayer = true;
             player2.gameObject.SetActive(true);
+            screen1.gameObject.SetActive(true);
+            screen2.gameObject.SetActive(true);
+
+            Vector3 currentPosition = boost1.GetComponent<RectTransform>().localPosition;
+            currentPosition.x = -630;
+            boost1.GetComponent<RectTransform>().localPosition = currentPosition;
+
+
+            Vector3 temp2 = new Vector3(camera.transform.position.x, camera.transform.position.y, 2);
+            camera.transform.SetPositionAndRotation(temp2, camera.transform.rotation);
             player2.transform.SetPositionAndRotation(player1.transform.position, player1.transform.rotation);
         }
 
