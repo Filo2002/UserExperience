@@ -7,6 +7,9 @@ public class SetHeight : MonoBehaviour
     public GameObject camera;
     public GameObject player1;
 
+    public GameObject detroyer;
+    public GameObject destroyer2;
+
     public GameObject player2;
 
     public bool multiplayer = false;
@@ -20,7 +23,22 @@ public class SetHeight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 temp = new Vector3(camera.transform.position.x, player1.transform.position.y, camera.transform.position.z);
+        float yHigher;
+        if(player1.transform.position.y > player2.transform.position.y)
+        {
+            destroyer2.GetComponent<BoxCollider2D>().isTrigger = false;
+            detroyer.GetComponent<BoxCollider2D>().isTrigger = true;
+            yHigher = player1.transform.position.y;
+        }
+        else
+        {
+            detroyer.GetComponent<BoxCollider2D>().isTrigger = false;
+            destroyer2.GetComponent<BoxCollider2D>().isTrigger = true;
+            yHigher = player2.transform.position.y;
+        }
+
+
+        Vector3 temp = new Vector3(camera.transform.position.x, yHigher, camera.transform.position.z);
         camera.transform.SetPositionAndRotation(temp, camera.transform.rotation);
 
         if(Input.GetKeyDown(KeyCode.K) && multiplayer == false)
