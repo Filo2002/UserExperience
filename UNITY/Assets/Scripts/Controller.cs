@@ -86,12 +86,12 @@ public class Controller : MonoBehaviour
 
             bool isFirstPlayer = SETTINGS.isFirstPlayer;
 
-            if(Input.GetKeyDown(KeyCode.W) && fill > 0)
+            if((Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D)) && fill > 0)
             {
                 boostInUse = true;
             }
 
-            if (Input.GetKeyUp(KeyCode.W) || fill == 0)
+            if ( fill <= 0.02)
             {
                 boostInUse = false;
             }

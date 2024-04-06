@@ -71,6 +71,7 @@
     <Compile Include="Assets/Scripts/BigBounce.cs" />
     <Compile Include="Assets/SetHeight.cs" />
     <Compile Include="Assets/Scripts/Controller2Player.cs" />
+    <Compile Include="Assets/AudioManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

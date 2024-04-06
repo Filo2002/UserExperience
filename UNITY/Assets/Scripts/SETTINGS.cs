@@ -32,6 +32,9 @@ public class SETTINGS : MonoBehaviour
     public static bool singleplayer = true;
     public static string player1 = "", player2 = "";
     public static bool isFirstPlayer = true;
+    public static bool audioEnabled = true;
+
+    public GameObject audio1, audio2;
 
     public UnityEngine.UI.Toggle toggleSingleplayer;
     public InputField Player1Name, Player2Name;
@@ -41,6 +44,9 @@ public class SETTINGS : MonoBehaviour
         toggleSingleplayer.isOn = singleplayer;
         Player1Name.text = player1;
         Player2Name.text = player2;
+
+        audio1.SetActive(audioEnabled);
+        audio2.SetActive(!audioEnabled);
 
 
         toggleSingleplayer.onValueChanged.AddListener(delegate {
@@ -105,6 +111,16 @@ public class SETTINGS : MonoBehaviour
             record1 = x;
         else
             record2 = x;
+    }
+
+    public static void DisableAudio()
+    {
+        audioEnabled = false;
+    }
+
+    public static void EnableAudio()
+    {
+        audioEnabled = true;
     }
 
 }
