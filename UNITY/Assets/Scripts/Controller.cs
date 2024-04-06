@@ -58,7 +58,7 @@ public class Controller : MonoBehaviour
         }
         
 
-        if (Input.GetKeyDown(KeyCode.Space) && isStarted == false)
+        if ((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D)) && isStarted == false)
         {
 
             isStarted = true;

@@ -50,7 +50,7 @@ public class SetHeight : MonoBehaviour
 
 
 
-        if ((Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.L)) && multiplayer == false)
+        if ((Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.G)) && multiplayer == false)
         {
             multiplayer = true;
             player2.gameObject.SetActive(true);
