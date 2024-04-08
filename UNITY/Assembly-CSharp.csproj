@@ -72,6 +72,7 @@
     <Compile Include="Assets/SetHeight.cs" />
     <Compile Include="Assets/Scripts/Controller2Player.cs" />
     <Compile Include="Assets/AudioManager.cs" />
+    <Compile Include="Assets/Meteora.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
