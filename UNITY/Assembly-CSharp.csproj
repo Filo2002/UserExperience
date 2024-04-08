@@ -56,10 +56,14 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Meteora.cs" />
     <Compile Include="Assets/Scripts/GetPoints.cs" />
+    <Compile Include="Assets/Scripts/Controller2Player.cs" />
     <Compile Include="Assets/Scripts/Bounce.cs" />
     <Compile Include="Assets/Scripts/LoadBar.cs" />
     <Compile Include="Assets/Scripts/Terrain.cs" />
+    <Compile Include="Assets/AudioManager.cs" />
+    <Compile Include="Assets/SetHeight.cs" />
     <Compile Include="Assets/Scripts/Controller.cs" />
     <Compile Include="Assets/Scripts/ShopInfo.cs" />
     <Compile Include="Assets/Scripts/FInish.cs" />
@@ -69,10 +73,6 @@
     <Compile Include="Assets/Scripts/SETTINGS.cs" />
     <Compile Include="Assets/Scripts/Click.cs" />
     <Compile Include="Assets/Scripts/BigBounce.cs" />
-    <Compile Include="Assets/SetHeight.cs" />
-    <Compile Include="Assets/Scripts/Controller2Player.cs" />
-    <Compile Include="Assets/AudioManager.cs" />
-    <Compile Include="Assets/Meteora.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

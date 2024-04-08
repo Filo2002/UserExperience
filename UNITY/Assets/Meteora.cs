@@ -24,8 +24,24 @@ public class Meteora : MonoBehaviour
         meteoraOBJ.SetActive(true);
         Vector3 posOBJ = meteoraOBJ.GetComponent<Transform>().position;
         posOBJ.x = this.GetComponent<RectTransform>().position.x;
+        posOBJ.y = this.GetComponent<RectTransform>().position.y;
 
         meteoraOBJ.GetComponent<Transform>().SetPositionAndRotation(posOBJ, meteoraOBJ.transform.rotation);
+
+        LanciaMeteora();
+    }
+
+    void LanciaMeteora()
+    {
+        Vector3 posOBJ = meteoraOBJ.GetComponent<Transform>().position;
+
+        while (posOBJ.y > 0)
+        {
+            posOBJ = meteoraOBJ.GetComponent<Transform>().position;
+
+            posOBJ.y = posOBJ.y - 0.0001f;
+            meteoraOBJ.GetComponent<Transform>().SetPositionAndRotation(posOBJ, meteoraOBJ.transform.rotation);
+        }
     }
 
     // Update is called once per frame
