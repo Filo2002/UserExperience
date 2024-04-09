@@ -10,6 +10,8 @@ public class Meteora : MonoBehaviour
 
     public GameObject meteoraOBJ;
 
+    private float tempPosXMeteora = 0;
+    private bool canLancia = true;
 
     // Start is called before the first frame update
     void Start()
@@ -19,35 +21,29 @@ public class Meteora : MonoBehaviour
 
     void Lancia()
     {
-        this.GetComponent<Image>().sprite = null;
-        this.GetComponent<Image>().color = Color.red;
+        this.GetComponent<Image>().color = new Color(0f, 0f, 0f, 0f);
         meteoraOBJ.SetActive(true);
         Vector3 posOBJ = meteoraOBJ.GetComponent<Transform>().position;
         posOBJ.x = this.GetComponent<RectTransform>().position.x;
         posOBJ.y = this.GetComponent<RectTransform>().position.y;
-
+        tempPosXMeteora = posOBJ.y;
         meteoraOBJ.GetComponent<Transform>().SetPositionAndRotation(posOBJ, meteoraOBJ.transform.rotation);
-
-        LanciaMeteora();
+        canLancia = false;
+        //LanciaMeteora();
     }
 
-    void LanciaMeteora()
+    void FineLancia()
     {
-        Vector3 posOBJ = meteoraOBJ.GetComponent<Transform>().position;
-
-        while (posOBJ.y > 0)
-        {
-            posOBJ = meteoraOBJ.GetComponent<Transform>().position;
-
-            posOBJ.y = posOBJ.y - 0.0001f;
-            meteoraOBJ.GetComponent<Transform>().SetPositionAndRotation(posOBJ, meteoraOBJ.transform.rotation);
-        }
+        this.GetComponent<Image>().color = new Color(255f, 255f, 255f, 255f);
+        meteoraOBJ.SetActive(false);
+        canLancia = true;
+        //LanciaMeteora();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.F))
+        if(Input.GetKey(KeyCode.F) && this.GetComponent<RectTransform>().position.x > -5f)
         {
             Vector3 pos = this.GetComponent<RectTransform>().position;
             pos.x -= 0.01f; 
@@ -55,7 +51,7 @@ public class Meteora : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.G))
+        if (Input.GetKey(KeyCode.G) && this.GetComponent<RectTransform>().position.x < 5f)
         {
             Vector3 pos = this.GetComponent<RectTransform>().position;
             pos.x += 0.01f;
@@ -63,11 +59,15 @@ public class Meteora : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.F) && Input.GetKey(KeyCode.G))
+        if (Input.GetKey(KeyCode.F) && Input.GetKey(KeyCode.G) && canLancia)
         {
             Lancia();
         }
 
+        if(meteoraOBJ.GetComponent<Transform>().position.y < (tempPosXMeteora - 20) && tempPosXMeteora != 0f)
+        {
+            FineLancia();
+        }
     }
 }
 

@@ -73,6 +73,7 @@
     <Compile Include="Assets/Scripts/SETTINGS.cs" />
     <Compile Include="Assets/Scripts/Click.cs" />
     <Compile Include="Assets/Scripts/BigBounce.cs" />
+    <Compile Include="Assets/moveDown.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
