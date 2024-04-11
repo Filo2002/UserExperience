@@ -113,8 +113,6 @@ public class Controller2Player : MonoBehaviour
                
             }
 
-            Debug.Log(boostInUse);
-
             textBoost.GetComponent<Text>().text = boostInUse ? "BOOST ON" : "PREMI W PER USARE IL BOOST";
 
             boostLevel.GetComponent<Image>().color = boostInUse ? Color.green : Color.red;
