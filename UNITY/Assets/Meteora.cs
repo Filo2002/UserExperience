@@ -13,6 +13,8 @@ public class Meteora : MonoBehaviour
     private float tempPosXMeteora = 0;
     private bool canLancia = true;
 
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +39,8 @@ public class Meteora : MonoBehaviour
         this.GetComponent<Image>().color = new Color(255f, 255f, 255f, 255f);
         meteoraOBJ.SetActive(false);
         canLancia = true;
+        meteoraOBJ.GetComponent<BoxCollider2D>().isTrigger = false;
+
         //LanciaMeteora();
     }
 
@@ -69,5 +73,6 @@ public class Meteora : MonoBehaviour
             FineLancia();
         }
     }
+
 }
 

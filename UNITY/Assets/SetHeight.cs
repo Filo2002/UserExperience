@@ -16,6 +16,9 @@ public class SetHeight : MonoBehaviour
 
     public GameObject boost1;
 
+    public GameObject player2canvas1, player2canvas2;
+
+
 
     public bool multiplayer = false;
 
@@ -56,6 +59,9 @@ public class SetHeight : MonoBehaviour
             player2.gameObject.SetActive(true);
             screen1.gameObject.SetActive(true);
             screen2.gameObject.SetActive(true);
+
+            player2canvas1.SetActive(true);
+            player2canvas2.SetActive(true);
 
             Vector3 currentPosition = boost1.GetComponent<RectTransform>().localPosition;
             currentPosition.x = -630;

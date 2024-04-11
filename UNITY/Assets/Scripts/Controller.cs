@@ -20,6 +20,8 @@ public class Controller : MonoBehaviour
 
     public GameObject boostLevel, boost, textBoost;
 
+    public GameObject player2obj1, player2obj2;
+
     float fill;
 
     // Start is called before the first frame update
@@ -41,6 +43,14 @@ public class Controller : MonoBehaviour
 
      void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.G))
+        {
+            player2obj1.SetActive(true);
+            player2obj2.SetActive(true);
+
+        }
+
 
         if (rb2d.transform.position.y < SETTINGS.GetPoints(SETTINGS.isFirstPlayer) - 50)
         {
