@@ -123,7 +123,6 @@ public class Controller : MonoBehaviour
                
             }
 
-            Debug.Log(boostInUse);
 
             textBoost.GetComponent<Text>().text = boostInUse ? "BOOST ON" : "PREMI W PER USARE IL BOOST";
 
@@ -150,7 +149,6 @@ public class Controller : MonoBehaviour
         {
 
             moveInput = Input.GetAxis("Horizontal");
-            Debug.Log(moveInput);
             rb2d.velocity = new Vector2(moveInput * speed, rb2d.velocity.y);
 
         }

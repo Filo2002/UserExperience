@@ -1,17 +1,23 @@
 ﻿<Properties StartupConfiguration="{193E8780-235F-C36B-4D27-68301175BEA0}|">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Controller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Controller2Player.cs">
     <Files>
-      <File FileName="Assets/Scripts/Controller.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Controller.cs" Line="152" Column="1" />
+      <File FileName="Assets/SetHeight.cs" Line="56" Column="22" />
+      <File FileName="Assets/Scripts/ShopInfo.cs" Line="40" Column="35" />
+      <File FileName="Assets/Scripts/SETTINGS.cs" Line="35" Column="43" />
+      <File FileName="Assets/Scripts/Controller2Player.cs" Line="115" Column="1" />
+      <File FileName="Assets/Scripts/Bounce.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Destroy.cs" Line="92" Column="4" />
+      <File FileName="Assets/AudioManager.cs" Line="13" Column="58" />
+      <File FileName="Assets/Meteora.cs" Line="69" Column="10" />
+      <File FileName="Assets/moveDown.cs" Line="29" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="UNITY" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Controller.cs" selected="True" />
-              </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -22,6 +28,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c9ea619b-e425-4688-91c9-3e1f824873b3" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8a248da5-e3af-426e-ae73-fe8d1fa5ab14" />
 </Properties>
