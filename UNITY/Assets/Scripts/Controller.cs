@@ -137,7 +137,7 @@ public class Controller : MonoBehaviour
                 SETTINGS.SetRecord(isFirstPlayer, SETTINGS.GetPoints(isFirstPlayer));
 
 
-            scoreText.text = "Punteggio " + SETTINGS.GetPlayerName(isFirstPlayer) + " : " + Mathf.Round(SETTINGS.GetPoints(isFirstPlayer)).ToString();
+            scoreText.text = "Punteggio :" + Mathf.Round(SETTINGS.GetPoints(isFirstPlayer)).ToString();
         }
 
     }
