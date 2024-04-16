@@ -29,6 +29,7 @@
 -define:PLATFORM_ARCH_64
 -define:UNITY_64
 -define:UNITY_INCLUDE_TESTS
+-define:UNITY_ANALYTICS
 -define:ENABLE_AR
 -define:ENABLE_AUDIO
 -define:ENABLE_CACHING
@@ -360,11 +361,15 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/AudioManager.cs"
+"Assets/Meteora.cs"
+"Assets/moveDown.cs"
 "Assets/Scripts/BigBounce.cs"
 "Assets/Scripts/Bounce.cs"
 "Assets/Scripts/ButtonManager.cs"
 "Assets/Scripts/Click.cs"
 "Assets/Scripts/Controller.cs"
+"Assets/Scripts/Controller2Player.cs"
 "Assets/Scripts/Destroy.cs"
 "Assets/Scripts/FInish.cs"
 "Assets/Scripts/GetPoints.cs"
@@ -373,6 +378,7 @@
 "Assets/Scripts/ShopInfo.cs"
 "Assets/Scripts/Spring.cs"
 "Assets/Scripts/Terrain.cs"
+"Assets/SetHeight.cs"
 -langversion:9.0
 
 /deterministic
