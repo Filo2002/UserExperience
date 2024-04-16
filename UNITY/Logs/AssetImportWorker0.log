@@ -1380,3 +1380,4 @@ Received Import Request.
   path: Assets/Scenes/Menu.unity
   artifactKey: Guid(97072e8276524254592f213117fbee91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Menu.unity using Guid(97072e8276524254592f213117fbee91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972a063cc5e64f63b29dd0543cff5481') in 0.021624 seconds 
+[usbmuxd] Detached: 1693 00008101-0014701E1A04001E
