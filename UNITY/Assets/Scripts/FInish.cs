@@ -9,6 +9,7 @@ public class FInish : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SETTINGS.isStarted = false;
         source.clip = death;
         SETTINGS.isFirstPlayer = true;
     }

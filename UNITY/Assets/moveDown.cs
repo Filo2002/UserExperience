@@ -22,7 +22,7 @@ public class moveDown : MonoBehaviour
     void Update()
     {
         Vector3 pos = this.GetComponent<Transform>().position;
-        pos.y = (player.position.y - posPlayerY) / 5 + (pos.y - 0.02f);
+        pos.y = (player.position.y - posPlayerY) / 5 + (pos.y - 0.2f);
         this.GetComponent<Transform>().SetPositionAndRotation(pos, this.GetComponent<Transform>().rotation);
         posPlayerY = player.position.y;
 

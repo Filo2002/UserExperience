@@ -47,23 +47,23 @@ public class Meteora : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.F) && this.GetComponent<RectTransform>().position.x > -5f)
+        if(Input.GetKey(KeyCode.F) && SETTINGS.isStarted && this.GetComponent<RectTransform>().position.x > -5f)
         {
             Vector3 pos = this.GetComponent<RectTransform>().position;
-            pos.x -= 0.01f; 
+            pos.x -= 0.13f; 
             this.GetComponent<RectTransform>().position = pos;
 
         }
 
-        if (Input.GetKey(KeyCode.G) && this.GetComponent<RectTransform>().position.x < 5f)
+        if (Input.GetKey(KeyCode.G) && SETTINGS.isStarted && this.GetComponent<RectTransform>().position.x < 5f)
         {
             Vector3 pos = this.GetComponent<RectTransform>().position;
-            pos.x += 0.01f;
+            pos.x += 0.13f;
             this.GetComponent<RectTransform>().position = pos;
 
         }
 
-        if (Input.GetKey(KeyCode.F) && Input.GetKey(KeyCode.G) && canLancia)
+        if (Input.GetKey(KeyCode.F) && SETTINGS.isStarted && Input.GetKey(KeyCode.G) && canLancia)
         {
             Lancia();
         }

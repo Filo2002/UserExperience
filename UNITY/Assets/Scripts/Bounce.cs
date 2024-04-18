@@ -6,14 +6,20 @@ public class Bounce : MonoBehaviour
 {
     public SpriteRenderer spriteRenderer;
     public Sprite base0, base1;
+    public GameObject boost;
 
     // Start is called before the first frame update
     void Start()
     {
+        if (Random.Range(1, 4) == 1)
+            boost.SetActive(true);
+
         if (SETTINGS.current_base == 0)
             spriteRenderer.sprite = base0;
         else
             spriteRenderer.sprite = base1;
+
+     
     }
 
     // Update is called once per frame

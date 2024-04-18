@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Player2
   - PLAYER
+  - Boost
   layers:
   - Default
   - TransparentFX

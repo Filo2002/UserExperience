@@ -33,6 +33,7 @@ public class SETTINGS : MonoBehaviour
     public static string player1 = "", player2 = "";
     public static bool isFirstPlayer = true;
     public static bool audioEnabled = true;
+    public static bool isStarted = false;
 
     public GameObject audio1, audio2;
 
@@ -41,6 +42,8 @@ public class SETTINGS : MonoBehaviour
 
     private void Start()
     {
+        Application.targetFrameRate = 60;
+
         toggleSingleplayer.isOn = singleplayer;
         Player1Name.text = player1;
         Player2Name.text = player2;

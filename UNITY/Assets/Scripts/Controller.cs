@@ -44,7 +44,7 @@ public class Controller : MonoBehaviour
      void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.G))
+        if ((Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.G)) && SETTINGS.isStarted)
         {
             player2obj1.SetActive(true);
             player2obj2.SetActive(true);
@@ -80,6 +80,7 @@ public class Controller : MonoBehaviour
 
         if (isStarted == true)
         {
+            SETTINGS.isStarted = true;
 
             if (moveInput < 0)
             {
@@ -114,7 +115,7 @@ public class Controller : MonoBehaviour
             }
             else
             {
-                fill = (float)(fill - 0.0001) > 0 ? (float)(fill - 0.0001) : 0;
+                fill = (float)(fill - 0.0002) > 0 ? (float)(fill - 0.0002) : 0;
             }
 
             if (rb2d.velocity.y > 0 && transform.position.y > 0)
@@ -124,7 +125,7 @@ public class Controller : MonoBehaviour
             }
 
 
-            textBoost.GetComponent<Text>().text = boostInUse ? "BOOST ON" : "PREMI W PER USARE IL BOOST";
+            textBoost.GetComponent<Text>().text = boostInUse ? "BOOST ON" : "PREMI I PULSANTI CONTEMPORANEAMENTE";
 
             boostLevel.GetComponent<Image>().color = boostInUse ? Color.green : Color.red;
             rb2d.gravityScale = boostInUse ? 3.5f : 5f;
@@ -156,7 +157,7 @@ public class Controller : MonoBehaviour
     }
 
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    /*private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player2"))
         {
@@ -169,6 +170,16 @@ public class Controller : MonoBehaviour
         if (collision.gameObject.CompareTag("Player2"))
         {
             Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), collision.collider, false);
+        }
+    }*/
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Boost"))
+        {
+            fill = fill + 0.2f;
+            Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), collision.collider, false);
+            Destroy(collision.gameObject);
         }
     }
 }
